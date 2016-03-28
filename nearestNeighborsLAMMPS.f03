@@ -10,6 +10,7 @@ program nearestNeighborsLAMMPS
   ! -interactionR is the interaction radius of the atoms, given by user.
   ! -linesToSkipFirst is how many lines to skip to the toal atoms ASSUMING you
   !        have a normal dump file
+  ! -ID is the integer that keeps track of the atom ID to store in the atomArray
   ! -totalAtoms  is how many total atoms in the dump file
   ! -xBoundCiel is the upper ammount any number can be on x-axis (important for
   !        memory allocation)
@@ -28,25 +29,26 @@ program nearestNeighborsLAMMPS
   !        from a file
   !-uselessInt is used in case I have to read in integer data I don't need
   !        from a file
-  !-atomArray stores the atom data. 3 dimensional (x,y,z coords) allocatable so
-  !        we can store the size of it after we read the totalAtoms from dump
+  !-atomArray stores the atom data.First is the atom ID, then it's the 3
+  !        dimensional (x,y,z coords) allocatable so we can store the size of
+  !        it after we read the totalAtoms from dump
   !END  VARIABLE  DECLARATIONS
 
 
   character(LEN=1000) :: filename
   integer :: linesToSkipFirst = 3
   real :: xBoundCiel, yBoundCiel, zBoundCiel, xBoundFloor, yBoundFloor, zBoundFloor
-  integer:: i, totalAtoms
-  !real, dimension(:,:,:), allocatable :: atomArray
-  real, dimension(:), allocatable :: atomArray
+  integer:: i, totalAtoms, ID
+  real, dimension(:,:), allocatable :: atomArray
   ! This gets the LAMMPS dumpfile
   print *, "Please enter the filename of the LAMMPS dumpfile (should be in directory for ease): "
   !read  *, filename
   filename = "out.Pt_3nm.20000"
   print *, "Using dumpfile: "// trim(filename)
 
-  print *, "Please enter the interaction radius (note: radius, not diameter): "
+  print *, "Please enter the lattice parameter: "
   read *, interactionR
+  interactionR = interactionR * .85
 
   ! Opening the dumpfile to parse through
   ! Using '1' as the unit for the file because FORTRAN ignores any normal coding conventions
@@ -62,8 +64,7 @@ program nearestNeighborsLAMMPS
   print *, "Total number of atoms: "
   totalAtoms = int(totalAtoms)
   print *, totalAtoms
-  !allocate(atomArray(totalAtoms, totalAtoms, totalAtoms))
-  allocate(atomArray(totalAtoms))
+  allocate(atomArray(totalAtoms, 3))
 
   ! Gets the boundaries of the simulation box. Okay what now?
   read(1,*) ! Skips through unnecessary header data
@@ -82,11 +83,10 @@ program nearestNeighborsLAMMPS
   read(1,*) ! Skips through unnecessary header data
 
   ! LET'S GET THE ATOMS, HOMEBOY
-  do i = 1, totalAtoms, 3
-    read(1,*) uselessInt, uselessInt, atomArray (i), atomArray (i+1), atomArray (i+2)
+  do i = 1, totalAtoms, 1
+    read(1,*) ID, uselessInt, atomArray (ID, 1), atomArray (ID, 2), atomArray (ID, 3)
   end do
 
-  print *, atomArray
 
 
 end program nearestNeighborsLAMMPS
@@ -100,6 +100,6 @@ end program nearestNeighborsLAMMPS
 !  2. Read in header data (Boundaries, Total Atoms)
 !  3. Read in atom data into an array
 !  4. Calculate sphereical coordinates of interactions
-!END  PRORAM  EXPLANATION
+!END  PROGRAM  EXPLANATION
 
 !TODO: Accomadate for timesteps. Good luck.
