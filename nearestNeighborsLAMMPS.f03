@@ -15,22 +15,9 @@ program nearestNeighborsLAMMPS
   !        have a normal dump file
   ! -ID is the integer that keeps track of the atom ID to store in the atomArray
   ! -totalAtoms  is how many total atoms in the dump file
-  ! -xBoundCiel is the upper ammount any number can be on x-axis (important for
-  !        memory allocation)
-  ! -yBoundCiel is the upper ammount any number can be on y-axis (important for
-  !        memory allocation)
-  ! -zBoundCiel is the upper ammount any number can be on z-axis (important for
-  !        memory allocation)
-  ! -xBoundFloor is the lower ammount any number can be on x-axis (important for
-  !        memory allocation)
-  ! -yBoundFloor is the lower ammount any number can be on y-axis (important for
-  !        memory allocation)
-  ! -zBoundFloor is the lower ammount any number can be on z-axis (important for
-  !        memory allocation)
   ! -i is used for looping
   ! -uselessChar is used in case I have to read in character data I don't need
   !        from a file
-  ! -intString is used to format integers to string for pretty printing
   ! -uselessInt is used in case I have to read in integer data I don't need
   !        from a file
   ! -atomArray stores the atom data. First is the atom ID, then it's the 3
@@ -44,9 +31,8 @@ program nearestNeighborsLAMMPS
   character(LEN=1000) :: filename
   integer :: linesToSkipFirst = 3
   integer :: nearestIterable = 1
-  real :: xBoundCiel, yBoundCiel, zBoundCiel, xBoundFloor, yBoundFloor, zBoundFloor, tic, toc
+  real :: tic, toc
   integer:: i, totalAtoms, ID
-  character(len=50) :: intString
   real, dimension(:,:), allocatable :: atomArray
   integer, dimension(:), allocatable :: tempArray
   integer, dimension(:), allocatable :: nearestNeighbors
@@ -85,21 +71,12 @@ program nearestNeighborsLAMMPS
 
 
 
-  ! Gets the boundaries of the simulation box. Okay what now?
+  ! Skips through unnecessary header data
   read(1,*) ! Skips through unnecessary header data
-  read(1,*) xBoundFloor, xBoundCiel
-  read(1,*) yBoundFloor, yBoundCiel
-  read(1,*) zBoundFloor, zBoundCiel
-
-  ! Debugging purposes, just printing the information... Ya boy still got it
-  print *, xBoundFloor
-  print *, xBoundCiel
-  print *, yBoundFloor
-  print *, yBoundCiel
-  print *, zBoundFloor
-  print *, zBoundCiel
-
-  read(1,*) ! Skips through unnecessary header data
+  read(1,*)
+  read(1,*)
+  read(1,*)
+  read(1,*)
 
   ! This puts all the atoms into the atomArray with their ID as their index
   do i = 1, totalAtoms
@@ -123,10 +100,15 @@ program nearestNeighborsLAMMPS
     end if
   end do
 
-  allocate(nearestNeighbors(nearestIterable - 1))
+  allocate(nearestNeighbors(nearestIterable))
 
-  do i = 1, nearestIterable
-    nearestNeighbors(i) = tempArray(i)
+  do i = 0, nearestIterable
+    if ((sqrt((atomArray(1, 1) - atomArray(tempArray(i), 1)) ** 2 + &
+              (atomArray(1, 2) - atomArray(tempArray(i), 2)) ** 2 + &
+              (atomArray(1, 3) - atomArray(tempArray(i), 3)) ** 2   &
+              )) > interactionR) then
+              nearestNeighbors(i) = tempArray(i)
+    end if
   end do
 
   print *, nearestNeighbors
