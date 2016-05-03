@@ -16,41 +16,48 @@ program nearestNeighborsLAMMPS
   ! -ID is the integer that keeps track of the atom ID to store in the atomArray
   ! -totalAtoms  is how many total atoms in the dump file
   ! -i is used for looping
+  ! -xFloor minimum value of simulation box on x-axis
+  ! -xCeil maximum value of simulation box on x-axis
+  ! -yFloor minimum value of simulation box on y-axis
+  ! -yCeil maximum value of simulation box on y-axis
+  ! -zFloor minimum value of simulation box on z-axis
+  ! -zCeil Nuclear Launch Codes to ICBM #42345
   ! -uselessChar is used in case I have to read in character data I don't need
   !        from a file
   ! -uselessInt is used in case I have to read in integer data I don't need
   !        from a file
   ! -atomArray stores the atom data. First is the atom ID, then it's the 3
-  !        dimensional (x,y,z coords) allocatable so we can store the size of
+  !        dimensional (x,y,z coords), allocatable so we can store the size of
   !        it after we read the totalAtoms from dump
-  ! -tempArray stores the nearest neighbors
-  ! -nearestNeighbors is the final array that stores all the nearest neighbors
+  ! -toBeSorted is an array that contains atom data for only one dimension
   !END  VARIABLE  DECLARATIONS
 
 
-  character(LEN=1000) :: filename
+  character(LEN=25) :: filename
   integer :: linesToSkipFirst = 3
   integer :: nearestIterable = 1
   real :: tic, toc
   integer:: i, totalAtoms, ID
   real, dimension(:,:), allocatable :: atomArray
-  integer, dimension(:), allocatable :: tempArray
-  integer, dimension(:), allocatable :: nearestNeighbors
+  real, dimension(:), allocatable :: toBeSorted
+  real, dimension(:), allocatable :: sortedArray
 
 
   call cpu_time(tic)
 
 
   ! This gets the LAMMPS dumpfile
-  print *, "Please enter the filename of the LAMMPS dumpfile (should be in directory for ease): "
+  !print *, "Please enter the filename of the LAMMPS dumpfile (should be in directory for ease): "
   !read  *, filename
-  filename = "out.Pt_3nm.20000"
+  filename = "out.Pt.0"
   print *, "Using dumpfile: "// trim(filename)
 
   ! This is to get the lattice parameter and multiplies it by a constant
-  print *, "Please enter the lattice parameter: "
-  read *, interactionR
-  interactionR = interactionR * .85
+  !print *, "Please enter the lattice parameter: "
+  !read *, interactionR
+
+  !interactionR = interactionR * .85
+  interactionR = 3.92 * .85
 
   ! Opening the dumpfile to parse through
   ! Using '1' as the unit for the file because FORTRAN ignores any normal coding conventions
@@ -67,16 +74,19 @@ program nearestNeighborsLAMMPS
   totalAtoms = int(totalAtoms)
   print *, totalAtoms
   allocate(atomArray(totalAtoms, 3))
-  allocate(tempArray(totalAtoms))
 
 
-
-  ! Skips through unnecessary header data
+  ! Reads in the boundary data for the simluation cell
   read(1,*) ! Skips through unnecessary header data
+  read(1,*) xFloor, xCeil
+  read(1,*) yFloor, yCeil
+  read(1,*) zFloor, zCeil
   read(1,*)
-  read(1,*)
-  read(1,*)
-  read(1,*)
+
+  ! Print out the boundaries for the siumlation cell
+  print *, "X-Axies Boundaries: ", xFloor, " - ", xCeil
+  print *, "Y-Axies Boundaries: ", yFloor, " - ", yCeil
+  print *, "Z-Axies Boundaries: ", zFloor, " - ", zCeil
 
   ! This puts all the atoms into the atomArray with their ID as their index
   do i = 1, totalAtoms
@@ -84,46 +94,22 @@ program nearestNeighborsLAMMPS
   end do
 
 
-  ! Test if the atoms are within a cube with a side length twice the lattice
-  !     parameter.
-  ! For x axis test: (atomArray(i, 1) <= (atomArray(1, 1) + (2 * interactionR)))
-  ! For y axis test: (atomArray(i, 2) <= (atomArray(1, 2) + (2 * interactionR)))
-  ! For z axis test: (atomArray(i, 2) <= (atomArray(1, 2) + (2 * interactionR)))
-  do i = 2, totalAtoms
-    if (atomArray(i, 1) <= (atomArray(1, 1) + (2 * interactionR))) then
-      if (atomArray(i, 2) <= (atomArray(1, 2) + (2 * interactionR))) then
-        if (atomArray(i, 2) <= (atomArray(1, 2) + (2 * interactionR))) then
-          tempArray(nearestIterable) = i
-          nearestIterable = nearestIterable + 1
-        end if
-      end if
-    end if
+  do i = 1, totalAtoms
+    atomArray(i, 1) = atomArray(i, 1) * 100000
+    print *, atomArray(i, 1)
   end do
 
-  allocate(nearestNeighbors(nearestIterable))
-
-  do i = 0, nearestIterable
-    if ((sqrt((atomArray(1, 1) - atomArray(tempArray(i), 1)) ** 2 + &
-              (atomArray(1, 2) - atomArray(tempArray(i), 2)) ** 2 + &
-              (atomArray(1, 3) - atomArray(tempArray(i), 3)) ** 2   &
-              )) > interactionR) then
-              nearestNeighbors(i) = tempArray(i)
-    end if
-  end do
-
-  print *, nearestNeighbors
+  !do i = 1, totalAtoms
+  !  toBeSorted((atomList(i)*10000)) = i
+  !end do
 
 
-
-
-  ! To read a specific entry just use atomArray (idnumber, entry OR :)
+  ! To read a specific entry just use atomArray(idnumber, entry OR :)
 
 
  call cpu_time(toc)
- print *, "Time Taken -->", real(toc-tic)
+ print *, "Time Taken:", real(toc-tic)
 end program nearestNeighborsLAMMPS
-
-
 
 
 !START PROGRAM EXPLANATION

@@ -1,0 +1,33 @@
+! Test if the atoms are within a cube with a side length twice the lattice
+!     parameter.
+! For x axis test: abs((atomArray(1, 1)) - (atomArray(i, 1))) <= (2 * interactionR))
+! For y axis test: abs((atomArray(1, 2)) - (atomArray(i, 2))) <= (2 * interactionR))
+! For z axis test: abs((atomArray(1, 2)) - (atomArray(i, 2))) <= (2 * interactionR))
+
+
+do i = 2, totalAtoms
+  if (abs((atomArray(1, 1)) - (atomArray(i, 1))) <= (2 * interactionR)) then
+    if (abs((atomArray(1, 2)) - (atomArray(i, 2))) <= (2 * interactionR)) then
+      if (abs((atomArray(1, 3)) - (atomArray(i, 3))) <= (2 * interactionR)) then
+        tempArray(nearestIterable) = i
+        nearestIterable = nearestIterable + 1
+      end if
+    end if
+  end if
+end do
+
+allocate(nearestNeighbors(nearestIterable))
+
+do i = 0, nearestIterable
+  if ((sqrt((atomArray(1, 1) - atomArray(tempArray(i), 1)) ** 2 + &
+            (atomArray(1, 2) - atomArray(tempArray(i), 2)) ** 2 + &
+            (atomArray(1, 3) - atomArray(tempArray(i), 3)) ** 2   &
+            )) > interactionR) then
+            nearestNeighbors(i) = tempArray(i)
+  end if
+end do
+
+print *, (nearestNeighbors)
+
+
+3824-2698-VA87GY
