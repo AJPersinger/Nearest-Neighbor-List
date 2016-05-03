@@ -39,7 +39,7 @@ program nearestNeighborsLAMMPS
   real :: tic, toc
   integer:: i, totalAtoms, ID
   real, dimension(:,:), allocatable :: atomArray
-  real, dimension(:), allocatable :: toBeSorted
+  integer, dimension(:), allocatable :: toBeSorted
   real, dimension(:), allocatable :: sortedArray
 
 
@@ -93,10 +93,11 @@ program nearestNeighborsLAMMPS
     read(1,*) ID, uselessInt, atomArray(ID, 1), atomArray(ID, 2), atomArray(ID, 3)
   end do
 
-
   do i = 1, totalAtoms
     atomArray(i, 1) = atomArray(i, 1) * 100000
-    print *, atomArray(i, 1)
+    !print *, atomArray(i, 1)
+    !toBeSorted(int(atomArray(i, 1))) = i
+    !print *, toBeSorted(i)
   end do
 
   !do i = 1, totalAtoms
