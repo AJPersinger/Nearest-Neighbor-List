@@ -16,6 +16,7 @@ program nearestNeighborsLAMMPS
   ! -ID is the integer that keeps track of the atom ID to store in the atomArray
   ! -totalAtoms  is how many total atoms in the dump file
   ! -i is used for looping
+  ! -impossible is for the sorting process
   ! -xFloor minimum value of simulation box on x-axis
   ! -xCeil maximum value of simulation box on x-axis
   ! -yFloor minimum value of simulation box on y-axis
@@ -37,10 +38,10 @@ program nearestNeighborsLAMMPS
   integer :: linesToSkipFirst = 3
   integer :: nearestIterable = 1
   real :: tic, toc
-  integer:: i, totalAtoms, ID
-  real, dimension(:,:), allocatable :: atomArray
+  integer:: i, totalAtoms, ID, impossible
+  double precision, dimension(:,:), allocatable :: atomArray
   integer, dimension(:), allocatable :: toBeSorted
-  real, dimension(:), allocatable :: sortedArray
+  integer, dimension(:), allocatable :: sortedArray
 
 
   call cpu_time(tic)
@@ -76,6 +77,7 @@ program nearestNeighborsLAMMPS
   allocate(atomArray(totalAtoms, 3))
 
 
+
   ! Reads in the boundary data for the simluation cell
   read(1,*) ! Skips through unnecessary header data
   read(1,*) xFloor, xCeil
@@ -83,6 +85,8 @@ program nearestNeighborsLAMMPS
   read(1,*) zFloor, zCeil
   read(1,*)
 
+  ! Set value of impossible integer
+  impossible = int(xCeil) + 1
   ! Print out the boundaries for the siumlation cell
   print *, "X-Axies Boundaries: ", xFloor, " - ", xCeil
   print *, "Y-Axies Boundaries: ", yFloor, " - ", yCeil
@@ -91,14 +95,27 @@ program nearestNeighborsLAMMPS
   ! This puts all the atoms into the atomArray with their ID as their index
   do i = 1, totalAtoms
     read(1,*) ID, uselessInt, atomArray(ID, 1), atomArray(ID, 2), atomArray(ID, 3)
+    print *, i, ": ", atomArray(i, 1)
   end do
 
-  do i = 1, totalAtoms
-    atomArray(i, 1) = atomArray(i, 1) * 100000
-    !print *, atomArray(i, 1)
-    !toBeSorted(int(atomArray(i, 1))) = i
-    !print *, toBeSorted(i)
-  end do
+  ! Allocate the proper dimensions to toBeSorted
+  allocate(toBeSorted(nint((abs(xFloor - xCeil)) * 10000000)))
+
+  ! Start the sorting
+  !do i = 1, totalAtoms
+    !toBeSorted(nint(atomArray(i, 1)*10000000)) = i
+    !print *, "Index: ", i, "\t Value:", toBeSorted(nint(atomArray(i, 1)*10000000))
+    !print *, " Inside value(?): ", nint(atomArray(i, 1)*10000000)
+  !end do
+
+
+
+
+
+
+
+
+
 
   !do i = 1, totalAtoms
   !  toBeSorted((atomList(i)*10000)) = i
