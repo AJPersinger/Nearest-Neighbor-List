@@ -31,3 +31,60 @@ print *, (nearestNeighbors)
 
 
 3824-2698-VA87GY
+
+
+!!!!!!!!!!!!
+
+go to 100
+
+! Convert the real data types to integer for our sorting procedure.
+do i = 1, totalAtoms
+  realToInt(i) = atomArray(i, 1) * 100000
+end do
+
+
+! Allocate the proper dimensions to toBeSorted
+allocate(toBeSorted_Pos(nint(abs(xCeil - xFloor)) * 100000))
+allocate(toBeSorted_Neg(nint(abs(xCeil - xFloor)) * 100000))
+allocate(sortedArray(totalAtoms, 2))
+
+! Start the sorting
+do i = 1, totalAtoms
+  if (realToInt(i) > 0) then
+    toBeSorted_Pos(realToInt(i)) = i
+  else if (realToInt(i) < 0) then
+    toBeSorted_Neg(abs(realToInt(i))) = i
+  end if
+end do
+
+nearestIterable = 1
+
+do i = 1, size(toBeSorted_Neg)
+  if (toBeSorted_Neg(i) == 0) then
+    interactionR = 1+1
+  else
+    sortedArray(nearestIterable, 1) = toBeSorted_Neg(i)
+    sortedArray(nearestIterable, 2) = i
+    nearestIterable = nearestIterable + 1
+  end if
+end do
+
+do i = 1, size(toBeSorted_Pos)
+  if (toBeSorted_Pos(i) == 0) then
+    interactionR = 1+1
+  else
+    sortedArray(nearestIterable, 1) = toBeSorted_Pos(i)
+    sortedArray(nearestIterable, 2) = i
+    nearestIterable = nearestIterable + 1
+  end if
+end do
+
+do i = 1, size(sortedArray)
+  if (sortedArray(i, 1) == 0.0) then
+    interactionR = 1 + 1
+  else
+    print *, "i : ", i, "     value: ", sortedArray(i, 1), sortedArray(i, 2)
+  end if
+end do
+
+100 continue

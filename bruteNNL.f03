@@ -39,13 +39,15 @@ program nearestNeighborsLAMMPS
 
   character(LEN=25) :: filename
   integer :: linesToSkipFirst = 3
-  !integer :: nearestIterable = 1
+  integer :: nearestIterable = 1
   real :: tic, toc
+  real*8 :: distance
   integer:: i, totalAtoms, ID, impossible
-  double precision, dimension(:,:), allocatable :: atomArray
+  real, dimension(:,:), allocatable :: atomArray
   integer, dimension(:), allocatable :: toBeSorted_Pos
   integer, dimension(:), allocatable :: toBeSorted_Neg
-  !integer, dimension(:), allocatable :: sortedArray
+  integer, dimension(:), allocatable :: realToInt
+  integer, dimension(:,:), allocatable :: sortedArray
 
 
   call cpu_time(tic)
@@ -62,11 +64,14 @@ program nearestNeighborsLAMMPS
   !read *, interactionR
 
   !interactionR = interactionR * .85
-  !interactionR = 3.92 * .85
+  interactionR = 3.92 * .85
 
   ! Opening the dumpfile to parse through
   ! Using '1' as the unit for the file because FORTRAN ignores any normal coding conventions
   open (unit = 1, file = trim(filename))
+
+  ! Opening output file
+  open (unit = 2, file = "nearestNeighbors.txt")
 
   ! Read through unnecessary header data until we get to the total atoms
   do i = 1, linesToSkipFirst
@@ -79,7 +84,7 @@ program nearestNeighborsLAMMPS
   totalAtoms = int(totalAtoms)
   print *, totalAtoms
   allocate(atomArray(totalAtoms, 3))
-
+  allocate(realToInt(totalAtoms))
 
 
   ! Reads in the boundary data for the simluation cell
@@ -91,6 +96,7 @@ program nearestNeighborsLAMMPS
 
   ! Set value of impossible integer
   impossible = int(xCeil) + 1
+
   ! Print out the boundaries for the siumlation cell
   print *, "X-Axies Boundaries: ", xFloor, " - ", xCeil
   print *, "Y-Axies Boundaries: ", yFloor, " - ", yCeil
@@ -99,38 +105,22 @@ program nearestNeighborsLAMMPS
   ! This puts all the atoms into the atomArray with their ID as their index
   do i = 1, totalAtoms
     read(1,*) ID, uselessInt, atomArray(ID, 1), atomArray(ID, 2), atomArray(ID, 3)
-    print *, "i: ", i, "    value: ", atomArray(i, 1)
-    !atomArray(i, 1) = atomArray(i, 1)*1000000000 ! We do this because roundoff
-    !print *, atomArray(i, 1), " -> ", nint(atomArray(i, 1))
   end do
 
-  ! Allocate the proper dimensions to toBeSorted
-  !allocate(toBeSorted_Pos(int((abs(xFloor - xCeil)) * 1000000000)))
-  !allocate(toBeSorted_Neg(int((abs(xFloor - xCeil)) * 1000000000)))
+  do i = 1, 50
+    write (2,*) "Nearest neighbors for atom ID: ", i, " are: "
+    do k = 1, totalAtoms
+      if (((atomArray(i, 1) + atomArray(k, 1))**2 + (atomArray(i, 2) +  &
+      atomArray(k, 2))**2 + (atomArray(i, 3) + atomArray(k, 3)**2)) < &
+      interactionR**2) then
+        distance = sqrt((atomArray(i, 1) + atomArray(k, 1))**2 + (atomArray(i, 2) + atomArray(k, 2))**2 &
+        + (atomArray(i, 3) + atomArray(k, 3)**2))
 
-  ! Start the sorting
-  !do i = 1, totalAtoms
-    !if (atomArray(i, 1) > 0) then
-      !print *, atomArray(i, 1), " -> ", nint(atomArray(i, 1))
-    !  toBeSorted_Pos(int(atomArray(i, 1))) = i
-    !else if (atomArray(i, 1) < 0) then
-    !  print *, int(atomArray(i, 1))
-    !  toBeSorted_Neg(abs(int(atomArray(i, 1)))) = i
-    !end if
-  !end do
-
-
-
-
-
-
-
-
-
-
-  !do i = 1, totalAtoms
-  !  toBeSorted((atomList(i)*10000)) = i
-  !end do
+        write (2,*) "ID: ", k, "   Distance: ", distance
+      end if
+    end do
+    write(2,*) "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+  end do
 
 
   ! To read a specific entry just use atomArray(idnumber, entry OR :)
