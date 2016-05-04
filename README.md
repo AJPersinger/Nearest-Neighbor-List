@@ -11,7 +11,7 @@ Nearest Neighbor List for LAMMPS in FORTRAN
 Runtime: O(n^2)
 
 Program Explanation:
-  The program asks the user for an input file and a lattice parameter. After that, it reads in all atom coordinate data from the input file. To test if an atom is a nearest neighbor without using the square root operator, you just have to test the squares. Because `(n+1)^2` is always larger than `(n)^2`, we can deduce that if `dx^2 + dy^2 + dz^2 < lattice^2` (where dx, dy, and dz is the difference in the coordinates of two atoms and lattice is the lattice parameter) that the two atoms are nearest neighbors. 
+  The program asks the user for an input file and a lattice parameter. After that, it reads in all atom coordinate data from the input file. To test if an atom is a nearest neighbor without using the square root operator, you just have to test the squares. Because `(n+1)^2` is always larger than `(n)^2`, we can deduce that if `Δx^2 + Δy^2 + Δz^2 < lattice^2` (where Δx, Δy, and Δz is the difference in the coordinates of two atoms and lattice is the lattice parameter) that the two atoms are nearest neighbors. 
   
 To do:
   - Account for periodic boundaries
