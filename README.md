@@ -1,8 +1,9 @@
 # Nearest-Neighbor-List
+
 Nearest Neighbor List for LAMMPS in FORTRAN
 ---
 
-
+ <br /> <br />
 
 #bruteNNL.f03
 Runtime: O(n^2)
@@ -16,7 +17,7 @@ To do:
   - See how it scales in O(n^2)
   
 ---
-
+ <br /> <br />
 
 #sortedNNL.f03
 Runtime: O(n*k)
