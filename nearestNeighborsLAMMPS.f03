@@ -30,18 +30,22 @@ program nearestNeighborsLAMMPS
   ! -atomArray stores the atom data. First is the atom ID, then it's the 3
   !        dimensional (x,y,z coords), allocatable so we can store the size of
   !        it after we read the totalAtoms from dump
-  ! -toBeSorted is an array that contains atom data for only one dimension
+  ! -toBeSorted_Pos is an array that contains atom data for only one dimension
+  !        in the positive x-axis
+  ! -toBeSorted_Neg is an array that contains atom data for only one dimension
+  !        in the negative x-axis
   !END  VARIABLE  DECLARATIONS
 
 
   character(LEN=25) :: filename
   integer :: linesToSkipFirst = 3
-  integer :: nearestIterable = 1
+  !integer :: nearestIterable = 1
   real :: tic, toc
   integer:: i, totalAtoms, ID, impossible
   double precision, dimension(:,:), allocatable :: atomArray
-  integer, dimension(:), allocatable :: toBeSorted
-  integer, dimension(:), allocatable :: sortedArray
+  integer, dimension(:), allocatable :: toBeSorted_Pos
+  integer, dimension(:), allocatable :: toBeSorted_Neg
+  !integer, dimension(:), allocatable :: sortedArray
 
 
   call cpu_time(tic)
@@ -58,7 +62,7 @@ program nearestNeighborsLAMMPS
   !read *, interactionR
 
   !interactionR = interactionR * .85
-  interactionR = 3.92 * .85
+  !interactionR = 3.92 * .85
 
   ! Opening the dumpfile to parse through
   ! Using '1' as the unit for the file because FORTRAN ignores any normal coding conventions
@@ -95,17 +99,24 @@ program nearestNeighborsLAMMPS
   ! This puts all the atoms into the atomArray with their ID as their index
   do i = 1, totalAtoms
     read(1,*) ID, uselessInt, atomArray(ID, 1), atomArray(ID, 2), atomArray(ID, 3)
-    print *, i, ": ", atomArray(i, 1)
+    print *, "i: ", i, "    value: ", atomArray(i, 1)
+    !atomArray(i, 1) = atomArray(i, 1)*1000000000 ! We do this because roundoff
+    !print *, atomArray(i, 1), " -> ", nint(atomArray(i, 1))
   end do
 
   ! Allocate the proper dimensions to toBeSorted
-  allocate(toBeSorted(nint((abs(xFloor - xCeil)) * 10000000)))
+  !allocate(toBeSorted_Pos(int((abs(xFloor - xCeil)) * 1000000000)))
+  !allocate(toBeSorted_Neg(int((abs(xFloor - xCeil)) * 1000000000)))
 
   ! Start the sorting
   !do i = 1, totalAtoms
-    !toBeSorted(nint(atomArray(i, 1)*10000000)) = i
-    !print *, "Index: ", i, "\t Value:", toBeSorted(nint(atomArray(i, 1)*10000000))
-    !print *, " Inside value(?): ", nint(atomArray(i, 1)*10000000)
+    !if (atomArray(i, 1) > 0) then
+      !print *, atomArray(i, 1), " -> ", nint(atomArray(i, 1))
+    !  toBeSorted_Pos(int(atomArray(i, 1))) = i
+    !else if (atomArray(i, 1) < 0) then
+    !  print *, int(atomArray(i, 1))
+    !  toBeSorted_Neg(abs(int(atomArray(i, 1)))) = i
+    !end if
   !end do
 
 
