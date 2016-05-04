@@ -1,6 +1,6 @@
 ! Title: Nearest Neigbhor List
 ! Purpose: Implement nearest neigbhor searches and creates a list of nearest atoms
-!           in a structure. Look for the explanation at the bottom, as well as TODO
+!           in a structure. Look for the explanation in the README
 ! Author: Axel-Jose Persinger
 
 program nearestNeighborsLAMMPS
@@ -34,8 +34,8 @@ program nearestNeighborsLAMMPS
 
   character(LEN=25) :: filename
   integer :: linesToSkipFirst = 3
-  real :: tic, toc
-  real*8 :: distance, interactionR
+  real :: tic, toc, x1, y1, z1, x2, y2, z2, distance
+  real*8 :: interactionR
   integer:: i, totalAtoms, ID
   real, dimension(:,:), allocatable :: atomArray
 
@@ -93,39 +93,93 @@ program nearestNeighborsLAMMPS
     read(1,*) ID, uselessInt, atomArray(ID, 1), atomArray(ID, 2), atomArray(ID, 3)
   end do
 
+
+  ! Nearest Neighbor calculations
   do i = 1, totalAtoms
-    print *, atomArray(i, 1), atomArray(i, 2), atomArray(i, 3)
-  end do
-
-  do i = 1, 50
     write (2,*) "Nearest neighbors for atom ID: ", i, " are: "
-    do k = 1, totalAtoms
-      if (((atomArray(i, 1) + atomArray(k, 1))**2 + (atomArray(i, 2) +  &
-      atomArray(k, 2))**2 + (atomArray(i, 3) + atomArray(k, 3)**2)) < &
-      interactionR**2) then
-        distance = sqrt((atomArray(i, 1) + atomArray(k, 1))**2 + (atomArray(i, 2) + atomArray(k, 2))**2 &
-        + (atomArray(i, 3) + atomArray(k, 3)**2))
+    ! Assign coordinates to variables (Just to make the code less cluttered)
+    x1 = atomArray(i, 1)
+    y1 = atomArray(i, 2)
+    z1 = atomArray(i, 3)
 
-        write (2,*) "ID: ", k, "   Distance: ", distance
+    do k = 1, totalAtoms
+      ! Assign coordinates to variables (Just to make the code less cluttered)
+      x2 = atomArray(k, 1)
+      y2 = atomArray(k, 2)
+      z2 = atomArray(k, 3)
+
+      ! Check to see if the distances squared is within the interactionR
+      distance = pnearestNeighborCalc(xFloor, xCeil, yFloor, yCeil, zFloor, zCeil, x1, y1, z1, x2, y2, z2, interactionR)
+      if (distance /= -1) then
+        ! Write the data to the file
+        write (2,*) "ID: ", k, "   Distance: ", sqrt(distance)
       end if
     end do
-    write(2,*) "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    write(2,*) "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   end do
 
+
+
+ ! Close the file to give permission to modify to whatever other program
+ close (2, status='KEEP')
 
  call cpu_time(toc)
  print *, "Time Taken:", real(toc-tic)
 end program nearestNeighborsLAMMPS
 
+!START FUNCTION DECLARATIONS
+! -squareDistance:
+!     return type: real
+!     purpose: calculate the distance of two points before taking the sqrt
+!
+! -isNN:
+!     return type: logical
+!     purpose: determine if two atoms are neighbors
+!
+!END FUNCTION DECLARATIONS
 
-!START PROGRAM EXPLANATION
-! The program is broken up into X parts:
-!  1. Get LAMMPS dump file and interaction radius
-!  2. Read in header data (Boundaries, Total Atoms)
-!  3. Read in atom data into an array
-!  4. Check all atoms to see if they lie within a cube with a side length twice
-!     the lattice parameter
-!  5. If it does, check if it lies within interaction radius
-!END  PROGRAM  EXPLANATION
 
-!TODO: Accomadate for timesteps. Good luck.
+
+real function squareDistance(x1, y1, z1, x2, y2, z2)
+  real x1, y1, z1, x2, y2, z2
+  squareDistance = (x2 - x1)**2 + (y2 - y1)**2 + (z2 - z1)**2
+  return
+end function
+
+! Why is there a p? Because fortran though it was a good idea for intrinsic variable names to be a thing
+real function pnearestNeighborCalc(xFloor, xCeil, yFloor, yCeil, zFloor, zCeil, x1, y1, z1, x2, y2, z2, interactionR)
+
+  if ((x1 + interactionR) > xCeil .or. (x1  - interactionR) < xFloor) then
+    if ((x1 + interactionR) > xCeil) then
+      x1 = x1 + interactionR
+    else if ((x1 - interactionR) < xFloor) then
+      x1 = x1 - interactionR
+    end if
+    pnearestNeighborCalc = squareDistance(x1, y1, z1, x2, y2, z2)
+
+  else if ((y1 + interactionR) > yCeil .or. (y1  - interactionR) < yFloor) then
+    if ((y1 + interactionR) > yCeil) then
+      x1 = x1 + interactionR
+    else if ((y1 - interactionR) < yFloor) then
+      y1 = y1 - interactionR
+    end if
+    pnearestNeighborCalc = squareDistance(x1, y1, z1, x2, y2, z2)
+
+  else if ((z1 + interactionR) > xCeil .or. (z1  - interactionR) < zFloor) then
+    if ((z1 + interactionR) > zCeil) then
+      z1 = z1 + interactionR
+    else if ((z1 - interactionR) < zFloor) then
+      z1 = z1 - interactionR
+    end if
+    pnearestNeighborCalc = squareDistance(x1, y1, z1, x2, y2, z2)
+
+  else
+    if (squareDistance(x1, y1, z1, x2, y2, z2) <= interactionR**2) then
+      pnearestNeighborCalc = squareDistance(x1, y1, z1, x2, y2, z2)
+    else
+      pnearestNeighborCalc = -1
+    end if
+
+  end if
+  return
+end function

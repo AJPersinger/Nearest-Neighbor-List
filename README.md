@@ -15,7 +15,6 @@ Program Explanation:
   
 To do:
   - Account for periodic boundaries
-  - Fix actual values for distances
   - See how it scales in O(n^2)
   
 ---
@@ -25,7 +24,7 @@ To do:
 Runtime: O(n*k)
 
 Program Explanation:
-  The program asks the user for an input file and a lattice parameter. After that, it reads in all atom coordinate data from the input file. It sorts the data by changing the index and the value stored at that index in the array that holds data. Then it shrinks the array to destroy all non-valued elements of the function. From there the program will only check atoms in the array that can possibly exist inside the interaction radius by looking at the bounds. An atom will never be a nearest neighbors if one of its cordinates is greater than +- another atom's interaction radius.
+  The program asks the user for an input file and a lattice parameter. After that, it reads in all atom coordinate data from the input file. It sorts the data by changing the index and the value stored at that index in the array that holds data. Then it shrinks the array to destroy all non-valued elements of the function. From there the program will only check atoms in the array that can possibly exist inside the interaction radius by looking at the bounds. An atom will never be a nearest neighbors if one of its coordinates is greater than +- another atom's interaction radius.
   
 To do:
   - Account for periodic boundaries
