@@ -10,13 +10,12 @@ program nearestNeighborsLAMMPS
   ! -tic is the first portion of a tic-toc profiling statement
   ! -toc is the second portion for timing
   ! -interactionR is the interaction radius of the atoms, given by user.
-  ! -nearestIterable is an interator to count up the array for the atoms
   ! -linesToSkipFirst is how many lines to skip to the toal atoms ASSUMING you
   !        have a normal dump file
+  ! -distance is a temporary variable to hold the distance between two atoms
   ! -ID is the integer that keeps track of the atom ID to store in the atomArray
   ! -totalAtoms  is how many total atoms in the dump file
   ! -i is used for looping
-  ! -impossible is for the sorting process
   ! -xFloor minimum value of simulation box on x-axis
   ! -xCeil maximum value of simulation box on x-axis
   ! -yFloor minimum value of simulation box on y-axis
@@ -30,24 +29,15 @@ program nearestNeighborsLAMMPS
   ! -atomArray stores the atom data. First is the atom ID, then it's the 3
   !        dimensional (x,y,z coords), allocatable so we can store the size of
   !        it after we read the totalAtoms from dump
-  ! -toBeSorted_Pos is an array that contains atom data for only one dimension
-  !        in the positive x-axis
-  ! -toBeSorted_Neg is an array that contains atom data for only one dimension
-  !        in the negative x-axis
   !END  VARIABLE  DECLARATIONS
 
 
   character(LEN=25) :: filename
   integer :: linesToSkipFirst = 3
-  integer :: nearestIterable = 1
   real :: tic, toc
-  real*8 :: distance
-  integer:: i, totalAtoms, ID, impossible
+  real*8 :: distance, interactionR
+  integer:: i, totalAtoms, ID
   real, dimension(:,:), allocatable :: atomArray
-  integer, dimension(:), allocatable :: toBeSorted_Pos
-  integer, dimension(:), allocatable :: toBeSorted_Neg
-  integer, dimension(:), allocatable :: realToInt
-  integer, dimension(:,:), allocatable :: sortedArray
 
 
   call cpu_time(tic)
@@ -84,7 +74,6 @@ program nearestNeighborsLAMMPS
   totalAtoms = int(totalAtoms)
   print *, totalAtoms
   allocate(atomArray(totalAtoms, 3))
-  allocate(realToInt(totalAtoms))
 
 
   ! Reads in the boundary data for the simluation cell
@@ -94,9 +83,6 @@ program nearestNeighborsLAMMPS
   read(1,*) zFloor, zCeil
   read(1,*)
 
-  ! Set value of impossible integer
-  impossible = int(xCeil) + 1
-
   ! Print out the boundaries for the siumlation cell
   print *, "X-Axies Boundaries: ", xFloor, " - ", xCeil
   print *, "Y-Axies Boundaries: ", yFloor, " - ", yCeil
@@ -105,6 +91,10 @@ program nearestNeighborsLAMMPS
   ! This puts all the atoms into the atomArray with their ID as their index
   do i = 1, totalAtoms
     read(1,*) ID, uselessInt, atomArray(ID, 1), atomArray(ID, 2), atomArray(ID, 3)
+  end do
+
+  do i = 1, totalAtoms
+    print *, atomArray(i, 1), atomArray(i, 2), atomArray(i, 3)
   end do
 
   do i = 1, 50
@@ -121,9 +111,6 @@ program nearestNeighborsLAMMPS
     end do
     write(2,*) "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   end do
-
-
-  ! To read a specific entry just use atomArray(idnumber, entry OR :)
 
 
  call cpu_time(toc)

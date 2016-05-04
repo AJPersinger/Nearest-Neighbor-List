@@ -1,14 +1,21 @@
  Nearest neighbors for atom ID:            1  are: 
  ID:         2849    Distance:    2.9410908222198486     
  ID:         2853    Distance:    2.9811315536499023     
+ ID:         2864    Distance:    3.0566608905792236     
  ID:         2868    Distance:                        NaN
  ID:         2869    Distance:                        NaN
  ID:         2943    Distance:    1.6143509149551392     
+ ID:         2944    Distance:    3.2385263442993164     
+ ID:         2945    Distance:    3.3307933807373047     
+ ID:         2946    Distance:    3.0835835933685303     
  ID:         2947    Distance:                        NaN
  ID:         2948    Distance:                        NaN
  ID:         2949    Distance:                        NaN
+ ID:         2950    Distance:    3.1176609992980957     
  ID:         2951    Distance:    1.6605697870254517     
+ ID:         2952    Distance:    3.2736210823059082     
  ID:         2953    Distance:                        NaN
+ ID:         2962    Distance:    3.2666254043579102     
  ID:         2963    Distance:                        NaN
  ID:         2964    Distance:                        NaN
  ID:         2965    Distance:                        NaN
@@ -18,12 +25,15 @@
  ID:         2969    Distance:                        NaN
  ID:         2970    Distance:                        NaN
  ID:         3043    Distance:                        NaN
+ ID:         3044    Distance:    3.2046186923980713     
+ ID:         3045    Distance:    3.3169515132904053     
  ID:         3046    Distance:                        NaN
  ID:         3047    Distance:                        NaN
  ID:         3048    Distance:                        NaN
  ID:         3049    Distance:                        NaN
  ID:         3050    Distance:                        NaN
  ID:         3051    Distance:                        NaN
+ ID:         3052    Distance:    3.3193221092224121     
  ID:         3053    Distance:                        NaN
  ID:         3062    Distance:                        NaN
  ID:         3063    Distance:                        NaN
@@ -35,10 +45,15 @@
  ID:         3069    Distance:                        NaN
  ID:         3070    Distance:                        NaN
  ID:         3143    Distance:    1.5938175916671753     
+ ID:         3146    Distance:    3.1287825107574463     
  ID:         3147    Distance:                        NaN
  ID:         3149    Distance:    2.9414925575256348     
+ ID:         3150    Distance:    3.1073503494262695     
  ID:         3151    Distance:    1.7464803457260132     
+ ID:         3153    Distance:    3.0117387771606445     
+ ID:         3162    Distance:    3.2582972049713135     
  ID:         3163    Distance:                        NaN
+ ID:         3164    Distance:    3.0438683032989502     
  ID:         3166    Distance:                        NaN
  ID:         3167    Distance:                        NaN
  ID:         3168    Distance:                        NaN
@@ -46,8 +61,12 @@
  ID:         3170    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:            2  are: 
+ ID:         2845    Distance:    3.1630671024322510     
+ ID:         2849    Distance:    3.1179118156433105     
+ ID:         2860    Distance:    3.1035177707672119     
  ID:         2864    Distance:                        NaN
  ID:         2865    Distance:                        NaN
+ ID:         2868    Distance:    3.1501677036285400     
  ID:         2869    Distance:                        NaN
  ID:         2939    Distance:    1.9750710725784302     
  ID:         2943    Distance:                        NaN
@@ -89,14 +108,18 @@
  ID:         3070    Distance:                        NaN
  ID:         3139    Distance:    1.9679651260375977     
  ID:         3143    Distance:                        NaN
+ ID:         3145    Distance:    3.1764464378356934     
  ID:         3147    Distance:    1.9252195358276367     
+ ID:         3149    Distance:    3.1247286796569824     
  ID:         3159    Distance:                        NaN
+ ID:         3160    Distance:    3.1354560852050781     
  ID:         3162    Distance:                        NaN
  ID:         3163    Distance:                        NaN
  ID:         3164    Distance:                        NaN
  ID:         3165    Distance:                        NaN
  ID:         3166    Distance:                        NaN
  ID:         3167    Distance:                        NaN
+ ID:         3168    Distance:    3.1574802398681641     
  ID:         3169    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:            3  are: 
@@ -108,10 +131,12 @@
  ID:         2943    Distance:                        NaN
  ID:         2944    Distance:    1.5624511241912842     
  ID:         2945    Distance:                        NaN
+ ID:         2946    Distance:    3.0187902450561523     
  ID:         2947    Distance:                        NaN
  ID:         2948    Distance:    1.4778239727020264     
  ID:         2949    Distance:                        NaN
  ID:         2953    Distance:                        NaN
+ ID:         2959    Distance:    3.1334469318389893     
  ID:         2960    Distance:    1.5689600706100464     
  ID:         2962    Distance:                        NaN
  ID:         2963    Distance:                        NaN
@@ -122,6 +147,8 @@
  ID:         2968    Distance:                        NaN
  ID:         2969    Distance:                        NaN
  ID:         2970    Distance:                        NaN
+ ID:         3039    Distance:    3.2646026611328125     
+ ID:         3042    Distance:    3.2517049312591553     
  ID:         3043    Distance:                        NaN
  ID:         3044    Distance:    1.5016114711761475     
  ID:         3045    Distance:                        NaN
@@ -129,6 +156,8 @@
  ID:         3047    Distance:                        NaN
  ID:         3048    Distance:    1.5770187377929688     
  ID:         3049    Distance:                        NaN
+ ID:         3050    Distance:    3.2377369403839111     
+ ID:         3051    Distance:    3.2232882976531982     
  ID:         3053    Distance:                        NaN
  ID:         3059    Distance:                        NaN
  ID:         3060    Distance:    1.5148307085037231     
@@ -142,8 +171,10 @@
  ID:         3069    Distance:                        NaN
  ID:         3070    Distance:                        NaN
  ID:         3143    Distance:                        NaN
+ ID:         3146    Distance:    3.0735294818878174     
  ID:         3147    Distance:                        NaN
  ID:         3149    Distance:    2.7666327953338623     
+ ID:         3159    Distance:    3.1333825588226318     
  ID:         3162    Distance:                        NaN
  ID:         3163    Distance:                        NaN
  ID:         3164    Distance:   0.34049695730209351     
@@ -155,8 +186,12 @@
  ID:         3170    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:            4  are: 
+ ID:         2841    Distance:    3.1209025382995605     
+ ID:         2845    Distance:    3.1474103927612305     
+ ID:         2857    Distance:    3.1747219562530518     
  ID:         2860    Distance:                        NaN
  ID:         2861    Distance:                        NaN
+ ID:         2864    Distance:    3.1584763526916504     
  ID:         2865    Distance:                        NaN
  ID:         2935    Distance:    1.9942281246185303     
  ID:         2939    Distance:                        NaN
@@ -198,14 +233,19 @@
  ID:         3069    Distance:                        NaN
  ID:         3135    Distance:    1.9284149408340454     
  ID:         3139    Distance:                        NaN
+ ID:         3141    Distance:    3.1261487007141113     
  ID:         3143    Distance:    1.9731633663177490     
+ ID:         3145    Distance:    3.1932094097137451     
+ ID:         3155    Distance:    3.3244488239288330     
  ID:         3156    Distance:                        NaN
+ ID:         3157    Distance:    3.1624705791473389     
  ID:         3158    Distance:                        NaN
  ID:         3159    Distance:                        NaN
  ID:         3160    Distance:                        NaN
  ID:         3161    Distance:                        NaN
  ID:         3162    Distance:                        NaN
  ID:         3163    Distance:                        NaN
+ ID:         3164    Distance:    3.1706814765930176     
  ID:         3165    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:            5  are: 
@@ -218,10 +258,12 @@
  ID:         2939    Distance:                        NaN
  ID:         2940    Distance:    1.6998113393783569     
  ID:         2941    Distance:                        NaN
+ ID:         2942    Distance:    3.1350035667419434     
  ID:         2943    Distance:                        NaN
  ID:         2944    Distance:    1.6791014671325684     
  ID:         2945    Distance:                        NaN
  ID:         2949    Distance:                        NaN
+ ID:         2956    Distance:    3.1534042358398438     
  ID:         2957    Distance:    1.8080874681472778     
  ID:         2958    Distance:                        NaN
  ID:         2959    Distance:                        NaN
@@ -232,8 +274,10 @@
  ID:         2964    Distance:                        NaN
  ID:         2965    Distance:                        NaN
  ID:         2966    Distance:                        NaN
+ ID:         2967    Distance:    3.0306253433227539     
  ID:         2968    Distance:    1.7384513616561890     
  ID:         2969    Distance:                        NaN
+ ID:         3035    Distance:    3.3285944461822510     
  ID:         3039    Distance:                        NaN
  ID:         3040    Distance:    1.6750891208648682     
  ID:         3041    Distance:                        NaN
@@ -241,6 +285,8 @@
  ID:         3043    Distance:                        NaN
  ID:         3044    Distance:    1.6454205513000488     
  ID:         3045    Distance:                        NaN
+ ID:         3046    Distance:    3.3006379604339600     
+ ID:         3047    Distance:    3.2980422973632812     
  ID:         3049    Distance:                        NaN
  ID:         3056    Distance:                        NaN
  ID:         3057    Distance:    1.7674162387847900     
@@ -257,8 +303,10 @@
  ID:         3068    Distance:    1.7540529966354370     
  ID:         3069    Distance:                        NaN
  ID:         3139    Distance:                        NaN
+ ID:         3142    Distance:    3.0627877712249756     
  ID:         3143    Distance:                        NaN
  ID:         3145    Distance:    2.8410446643829346     
+ ID:         3156    Distance:    3.0646383762359619     
  ID:         3158    Distance:                        NaN
  ID:         3159    Distance:                        NaN
  ID:         3160    Distance:                        NaN
@@ -268,19 +316,26 @@
  ID:         3164    Distance:   0.33543747663497925     
  ID:         3165    Distance:                        NaN
  ID:         3166    Distance:                        NaN
+ ID:         3167    Distance:    3.0439286231994629     
  ID:         3169    Distance:    2.9134302139282227     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:            6  are: 
+ ID:         2837    Distance:    3.0343084335327148     
  ID:         2841    Distance:    2.9061212539672852     
  ID:         2857    Distance:                        NaN
  ID:         2860    Distance:    2.9664702415466309     
  ID:         2861    Distance:                        NaN
  ID:         2932    Distance:    1.6759070158004761     
+ ID:         2933    Distance:    3.3185248374938965     
+ ID:         2934    Distance:    3.1809577941894531     
  ID:         2935    Distance:                        NaN
  ID:         2936    Distance:                        NaN
  ID:         2937    Distance:                        NaN
+ ID:         2938    Distance:    3.0785140991210938     
  ID:         2939    Distance:    1.4302483797073364     
+ ID:         2940    Distance:    3.2369275093078613     
  ID:         2941    Distance:                        NaN
+ ID:         2945    Distance:    3.2821345329284668     
  ID:         2955    Distance:                        NaN
  ID:         2956    Distance:                        NaN
  ID:         2957    Distance:                        NaN
@@ -288,15 +343,19 @@
  ID:         2959    Distance:                        NaN
  ID:         2960    Distance:                        NaN
  ID:         2961    Distance:                        NaN
+ ID:         2962    Distance:    3.2360057830810547     
  ID:         2965    Distance:                        NaN
  ID:         3032    Distance:                        NaN
+ ID:         3033    Distance:    3.2806284427642822     
  ID:         3034    Distance:                        NaN
  ID:         3035    Distance:                        NaN
  ID:         3036    Distance:                        NaN
  ID:         3037    Distance:                        NaN
  ID:         3038    Distance:                        NaN
  ID:         3039    Distance:                        NaN
+ ID:         3040    Distance:    3.2438967227935791     
  ID:         3041    Distance:                        NaN
+ ID:         3045    Distance:    3.2624847888946533     
  ID:         3055    Distance:                        NaN
  ID:         3056    Distance:                        NaN
  ID:         3057    Distance:                        NaN
@@ -307,8 +366,10 @@
  ID:         3062    Distance:                        NaN
  ID:         3065    Distance:                        NaN
  ID:         3132    Distance:    1.7518420219421387     
+ ID:         3134    Distance:    3.1226780414581299     
  ID:         3135    Distance:                        NaN
  ID:         3137    Distance:    2.9728388786315918     
+ ID:         3138    Distance:    3.0985617637634277     
  ID:         3139    Distance:    1.5199428796768188     
  ID:         3141    Distance:    2.9407036304473877     
  ID:         3155    Distance:                        NaN
@@ -316,7 +377,9 @@
  ID:         3157    Distance:                        NaN
  ID:         3158    Distance:                        NaN
  ID:         3159    Distance:                        NaN
+ ID:         3160    Distance:    3.0143604278564453     
  ID:         3161    Distance:                        NaN
+ ID:         3162    Distance:    3.2576637268066406     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:            7  are: 
  ID:         2841    Distance:    2.7688214778900146     
@@ -327,6 +390,7 @@
  ID:         2935    Distance:                        NaN
  ID:         2936    Distance:    1.6079106330871582     
  ID:         2937    Distance:                        NaN
+ ID:         2938    Distance:    3.0552144050598145     
  ID:         2939    Distance:                        NaN
  ID:         2940    Distance:    1.6378208398818970     
  ID:         2941    Distance:                        NaN
@@ -339,8 +403,11 @@
  ID:         2960    Distance:                        NaN
  ID:         2961    Distance:                        NaN
  ID:         2962    Distance:                        NaN
+ ID:         2963    Distance:    3.1364030838012695     
  ID:         2964    Distance:    1.5704181194305420     
  ID:         2965    Distance:                        NaN
+ ID:         3032    Distance:    3.2278904914855957     
+ ID:         3034    Distance:    3.2954914569854736     
  ID:         3035    Distance:                        NaN
  ID:         3036    Distance:    1.6272871494293213     
  ID:         3037    Distance:                        NaN
@@ -348,6 +415,8 @@
  ID:         3039    Distance:                        NaN
  ID:         3040    Distance:    1.6389186382293701     
  ID:         3041    Distance:                        NaN
+ ID:         3042    Distance:    3.3271534442901611     
+ ID:         3043    Distance:    3.3013076782226562     
  ID:         3045    Distance:                        NaN
  ID:         3055    Distance:                        NaN
  ID:         3056    Distance:                        NaN
@@ -361,6 +430,7 @@
  ID:         3064    Distance:    1.6825227737426758     
  ID:         3065    Distance:                        NaN
  ID:         3135    Distance:                        NaN
+ ID:         3138    Distance:    3.0584714412689209     
  ID:         3139    Distance:                        NaN
  ID:         3141    Distance:    2.7901563644409180     
  ID:         3155    Distance:                        NaN
@@ -371,11 +441,16 @@
  ID:         3160    Distance:   0.32150641083717346     
  ID:         3161    Distance:                        NaN
  ID:         3162    Distance:                        NaN
+ ID:         3163    Distance:    3.2237393856048584     
  ID:         3165    Distance:    2.8355350494384766     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:            8  are: 
+ ID:         2826    Distance:    3.0988249778747559     
+ ID:         2830    Distance:    3.1463282108306885     
+ ID:         2848    Distance:    3.0921189785003662     
  ID:         2852    Distance:                        NaN
  ID:         2853    Distance:                        NaN
+ ID:         2868    Distance:    3.1490757465362549     
  ID:         2920    Distance:    1.8812862634658813     
  ID:         2924    Distance:                        NaN
  ID:         2925    Distance:                        NaN
@@ -415,20 +490,29 @@
  ID:         3068    Distance:                        NaN
  ID:         3070    Distance:                        NaN
  ID:         3120    Distance:    1.8006403446197510     
+ ID:         3123    Distance:    3.3285636901855469     
  ID:         3124    Distance:                        NaN
+ ID:         3126    Distance:    3.0982406139373779     
  ID:         3128    Distance:    1.6936465501785278     
+ ID:         3130    Distance:    3.1300566196441650     
  ID:         3147    Distance:                        NaN
+ ID:         3148    Distance:    3.1406419277191162     
  ID:         3150    Distance:                        NaN
  ID:         3151    Distance:                        NaN
  ID:         3152    Distance:                        NaN
  ID:         3153    Distance:                        NaN
  ID:         3154    Distance:                        NaN
  ID:         3167    Distance:    1.6934584379196167     
+ ID:         3168    Distance:    3.1702003479003906     
  ID:         3170    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:            9  are: 
+ ID:         2848    Distance:    3.0687916278839111     
+ ID:         2849    Distance:    3.1350729465484619     
+ ID:         2852    Distance:    3.0524253845214844     
  ID:         2853    Distance:                        NaN
  ID:         2868    Distance:                        NaN
+ ID:         2869    Distance:    3.1693015098571777     
  ID:         2926    Distance:                        NaN
  ID:         2946    Distance:    1.7903829813003540     
  ID:         2947    Distance:                        NaN
@@ -465,15 +549,20 @@
  ID:         3068    Distance:                        NaN
  ID:         3069    Distance:                        NaN
  ID:         3070    Distance:                        NaN
+ ID:         3120    Distance:    3.3058571815490723     
  ID:         3146    Distance:    1.8306418657302856     
  ID:         3147    Distance:                        NaN
+ ID:         3148    Distance:    3.1286127567291260     
+ ID:         3149    Distance:    3.1273996829986572     
  ID:         3150    Distance:                        NaN
  ID:         3151    Distance:                        NaN
+ ID:         3152    Distance:    3.1476016044616699     
  ID:         3153    Distance:                        NaN
  ID:         3154    Distance:    1.8632147312164307     
  ID:         3166    Distance:                        NaN
  ID:         3167    Distance:                        NaN
  ID:         3168    Distance:                        NaN
+ ID:         3169    Distance:    3.1413795948028564     
  ID:         3170    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           10  are: 
@@ -485,6 +574,7 @@
  ID:         2864    Distance:    2.8784060478210449     
  ID:         2868    Distance:                        NaN
  ID:         2869    Distance:   0.60001641511917114     
+ ID:         2920    Distance:    3.0406956672668457     
  ID:         2922    Distance:    1.5001550912857056     
  ID:         2926    Distance:    1.4924904108047485     
  ID:         2943    Distance:                        NaN
@@ -498,6 +588,7 @@
  ID:         2951    Distance:                        NaN
  ID:         2952    Distance:                        NaN
  ID:         2953    Distance:                        NaN
+ ID:         2962    Distance:    3.1087553501129150     
  ID:         2963    Distance:                        NaN
  ID:         2964    Distance:                        NaN
  ID:         2965    Distance:    1.7857662439346313     
@@ -506,9 +597,12 @@
  ID:         2968    Distance:                        NaN
  ID:         2969    Distance:                        NaN
  ID:         2970    Distance:                        NaN
+ ID:         3016    Distance:    3.2300913333892822     
  ID:         3020    Distance:                        NaN
  ID:         3022    Distance:    1.4771178960800171     
+ ID:         3024    Distance:    3.2118508815765381     
  ID:         3026    Distance:    1.5101597309112549     
+ ID:         3042    Distance:    3.2241652011871338     
  ID:         3043    Distance:                        NaN
  ID:         3044    Distance:                        NaN
  ID:         3045    Distance:    1.6164360046386719     
@@ -520,6 +614,7 @@
  ID:         3051    Distance:                        NaN
  ID:         3052    Distance:                        NaN
  ID:         3053    Distance:                        NaN
+ ID:         3054    Distance:    3.1906249523162842     
  ID:         3062    Distance:                        NaN
  ID:         3063    Distance:                        NaN
  ID:         3064    Distance:                        NaN
@@ -529,6 +624,7 @@
  ID:         3068    Distance:                        NaN
  ID:         3069    Distance:                        NaN
  ID:         3070    Distance:                        NaN
+ ID:         3120    Distance:    3.0310592651367188     
  ID:         3143    Distance:                        NaN
  ID:         3146    Distance:                        NaN
  ID:         3147    Distance:                        NaN
@@ -537,6 +633,7 @@
  ID:         3150    Distance:                        NaN
  ID:         3151    Distance:                        NaN
  ID:         3153    Distance:   0.51199167966842651     
+ ID:         3162    Distance:    3.0907955169677734     
  ID:         3163    Distance:                        NaN
  ID:         3164    Distance:    2.8525075912475586     
  ID:         3166    Distance:                        NaN
@@ -555,10 +652,12 @@
  ID:         2920    Distance:                        NaN
  ID:         2921    Distance:    1.6551786661148071     
  ID:         2922    Distance:                        NaN
+ ID:         2923    Distance:    3.1002380847930908     
  ID:         2924    Distance:                        NaN
  ID:         2925    Distance:    1.6137789487838745     
  ID:         2926    Distance:                        NaN
  ID:         2930    Distance:                        NaN
+ ID:         2943    Distance:    3.2093582153320312     
  ID:         2944    Distance:    1.7439481019973755     
  ID:         2946    Distance:                        NaN
  ID:         2947    Distance:                        NaN
@@ -582,6 +681,7 @@
  ID:         3024    Distance:                        NaN
  ID:         3025    Distance:    1.6085795164108276     
  ID:         3026    Distance:                        NaN
+ ID:         3027    Distance:    3.2788674831390381     
  ID:         3028    Distance:    2.9773736000061035     
  ID:         3030    Distance:                        NaN
  ID:         3043    Distance:                        NaN
@@ -602,8 +702,10 @@
  ID:         3069    Distance:                        NaN
  ID:         3070    Distance:                        NaN
  ID:         3120    Distance:                        NaN
+ ID:         3123    Distance:    3.0864057540893555     
  ID:         3124    Distance:                        NaN
  ID:         3126    Distance:    2.8289287090301514     
+ ID:         3143    Distance:    3.1773486137390137     
  ID:         3146    Distance:                        NaN
  ID:         3147    Distance:                        NaN
  ID:         3148    Distance:   0.69916486740112305     
@@ -619,8 +721,13 @@
  ID:         3170    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           13  are: 
+ ID:         2844    Distance:    3.1445858478546143     
+ ID:         2845    Distance:    3.1293277740478516     
+ ID:         2848    Distance:    3.1414003372192383     
  ID:         2849    Distance:                        NaN
+ ID:         2853    Distance:    3.1855430603027344     
  ID:         2864    Distance:                        NaN
+ ID:         2865    Distance:    3.2197666168212891     
  ID:         2868    Distance:                        NaN
  ID:         2869    Distance:                        NaN
  ID:         2922    Distance:                        NaN
@@ -672,13 +779,18 @@
  ID:         3070    Distance:                        NaN
  ID:         3142    Distance:    1.8422100543975830     
  ID:         3143    Distance:                        NaN
+ ID:         3144    Distance:    3.1285676956176758     
+ ID:         3145    Distance:    3.1332242488861084     
  ID:         3146    Distance:                        NaN
  ID:         3147    Distance:                        NaN
+ ID:         3148    Distance:    3.2005631923675537     
  ID:         3149    Distance:                        NaN
  ID:         3150    Distance:    1.9435119628906250     
+ ID:         3153    Distance:    3.2088394165039062     
  ID:         3162    Distance:                        NaN
  ID:         3163    Distance:                        NaN
  ID:         3164    Distance:                        NaN
+ ID:         3165    Distance:    3.1584308147430420     
  ID:         3166    Distance:                        NaN
  ID:         3167    Distance:                        NaN
  ID:         3168    Distance:                        NaN
@@ -686,10 +798,18 @@
  ID:         3170    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           14  are: 
+ ID:         2818    Distance:    3.2007040977478027     
+ ID:         2822    Distance:    3.1945569515228271     
+ ID:         2840    Distance:    3.1425592899322510     
  ID:         2844    Distance:                        NaN
  ID:         2845    Distance:                        NaN
+ ID:         2848    Distance:    3.1955814361572266     
  ID:         2849    Distance:                        NaN
+ ID:         2860    Distance:    3.0749728679656982     
  ID:         2864    Distance:                        NaN
+ ID:         2865    Distance:    3.1816544532775879     
+ ID:         2868    Distance:    3.1272850036621094     
+ ID:         2869    Distance:    3.1195080280303955     
  ID:         2912    Distance:    2.0512721538543701     
  ID:         2916    Distance:                        NaN
  ID:         2917    Distance:                        NaN
@@ -708,6 +828,7 @@
  ID:         2948    Distance:                        NaN
  ID:         2949    Distance:                        NaN
  ID:         2953    Distance:                        NaN
+ ID:         2958    Distance:    3.3031883239746094     
  ID:         2959    Distance:    1.8280712366104126     
  ID:         2960    Distance:                        NaN
  ID:         2962    Distance:                        NaN
@@ -718,6 +839,7 @@
  ID:         2967    Distance:    1.5047994852066040     
  ID:         2968    Distance:                        NaN
  ID:         2969    Distance:                        NaN
+ ID:         2970    Distance:    3.3295574188232422     
  ID:         3012    Distance:                        NaN
  ID:         3015    Distance:                        NaN
  ID:         3016    Distance:                        NaN
@@ -754,21 +876,30 @@
  ID:         3070    Distance:                        NaN
  ID:         3112    Distance:    1.9825662374496460     
  ID:         3116    Distance:                        NaN
+ ID:         3118    Distance:    3.1330988407135010     
  ID:         3120    Distance:    2.1117382049560547     
+ ID:         3122    Distance:    3.2138471603393555     
  ID:         3139    Distance:                        NaN
+ ID:         3140    Distance:    3.1324725151062012     
  ID:         3142    Distance:                        NaN
  ID:         3143    Distance:                        NaN
  ID:         3144    Distance:                        NaN
  ID:         3145    Distance:                        NaN
  ID:         3146    Distance:                        NaN
  ID:         3147    Distance:                        NaN
+ ID:         3148    Distance:    3.2439193725585938     
  ID:         3149    Distance:                        NaN
+ ID:         3158    Distance:    3.2847654819488525     
  ID:         3159    Distance:    1.8186105489730835     
+ ID:         3160    Distance:    3.0987868309020996     
  ID:         3162    Distance:                        NaN
  ID:         3163    Distance:                        NaN
  ID:         3164    Distance:                        NaN
+ ID:         3165    Distance:    3.1125874519348145     
  ID:         3166    Distance:                        NaN
  ID:         3167    Distance:    1.4760625362396240     
+ ID:         3168    Distance:    3.1270577907562256     
+ ID:         3169    Distance:    3.1292686462402344     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           15  are: 
  ID:         2844    Distance:    2.8903532028198242     
@@ -779,6 +910,7 @@
  ID:         2865    Distance:   0.56294023990631104     
  ID:         2868    Distance:    2.8454806804656982     
  ID:         2869    Distance:   0.38016888499259949     
+ ID:         2916    Distance:    3.1625428199768066     
  ID:         2918    Distance:    1.8220468759536743     
  ID:         2922    Distance:    1.8716645240783691     
  ID:         2939    Distance:                        NaN
@@ -793,6 +925,7 @@
  ID:         2948    Distance:                        NaN
  ID:         2949    Distance:                        NaN
  ID:         2953    Distance:    1.8555150032043457     
+ ID:         2958    Distance:    3.0149006843566895     
  ID:         2959    Distance:                        NaN
  ID:         2960    Distance:                        NaN
  ID:         2961    Distance:    1.7120218276977539     
@@ -804,9 +937,11 @@
  ID:         2967    Distance:                        NaN
  ID:         2968    Distance:                        NaN
  ID:         2969    Distance:                        NaN
+ ID:         2970    Distance:    3.0711598396301270     
  ID:         3016    Distance:                        NaN
  ID:         3018    Distance:    1.8093097209930420     
  ID:         3022    Distance:    1.8190536499023438     
+ ID:         3038    Distance:    3.3195822238922119     
  ID:         3039    Distance:                        NaN
  ID:         3040    Distance:                        NaN
  ID:         3041    Distance:    1.6208772659301758     
@@ -832,6 +967,7 @@
  ID:         3068    Distance:                        NaN
  ID:         3069    Distance:                        NaN
  ID:         3070    Distance:                        NaN
+ ID:         3116    Distance:    3.1920349597930908     
  ID:         3139    Distance:                        NaN
  ID:         3142    Distance:                        NaN
  ID:         3143    Distance:                        NaN
@@ -851,6 +987,7 @@
  ID:         3167    Distance:                        NaN
  ID:         3168    Distance:    2.8493757247924805     
  ID:         3169    Distance:   0.57484948635101318     
+ ID:         3170    Distance:    3.1325323581695557     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           16  are: 
  ID:         2822    Distance:    2.8342957496643066     
@@ -865,10 +1002,12 @@
  ID:         2916    Distance:                        NaN
  ID:         2917    Distance:    1.6988730430603027     
  ID:         2918    Distance:                        NaN
+ ID:         2919    Distance:    3.1341400146484375     
  ID:         2920    Distance:                        NaN
  ID:         2921    Distance:    1.7607949972152710     
  ID:         2922    Distance:                        NaN
  ID:         2926    Distance:                        NaN
+ ID:         2939    Distance:    3.0762317180633545     
  ID:         2940    Distance:    1.6207960844039917     
  ID:         2942    Distance:                        NaN
  ID:         2943    Distance:                        NaN
@@ -879,6 +1018,7 @@
  ID:         2948    Distance:                        NaN
  ID:         2949    Distance:                        NaN
  ID:         2950    Distance:                        NaN
+ ID:         2951    Distance:    3.1009106636047363     
  ID:         2952    Distance:    1.8031417131423950     
  ID:         2953    Distance:                        NaN
  ID:         2960    Distance:    1.5970675945281982     
@@ -891,6 +1031,8 @@
  ID:         2968    Distance:                        NaN
  ID:         2969    Distance:                        NaN
  ID:         2970    Distance:                        NaN
+ ID:         3012    Distance:    3.3213078975677490     
+ ID:         3015    Distance:    3.2917294502258301     
  ID:         3016    Distance:                        NaN
  ID:         3017    Distance:    1.6829489469528198     
  ID:         3018    Distance:                        NaN
@@ -913,6 +1055,7 @@
  ID:         3051    Distance:                        NaN
  ID:         3052    Distance:    1.9072393178939819     
  ID:         3053    Distance:                        NaN
+ ID:         3059    Distance:    3.2802093029022217     
  ID:         3060    Distance:    1.5318826436996460     
  ID:         3062    Distance:                        NaN
  ID:         3063    Distance:                        NaN
@@ -924,8 +1067,10 @@
  ID:         3069    Distance:                        NaN
  ID:         3070    Distance:                        NaN
  ID:         3116    Distance:                        NaN
+ ID:         3119    Distance:    3.1231112480163574     
  ID:         3120    Distance:                        NaN
  ID:         3122    Distance:    2.8520791530609131     
+ ID:         3139    Distance:    3.0619711875915527     
  ID:         3142    Distance:                        NaN
  ID:         3143    Distance:                        NaN
  ID:         3144    Distance:   0.47561600804328918     
@@ -935,6 +1080,7 @@
  ID:         3148    Distance:   0.75602370500564575     
  ID:         3149    Distance:                        NaN
  ID:         3150    Distance:                        NaN
+ ID:         3151    Distance:    3.1151046752929688     
  ID:         3153    Distance:    2.8813142776489258     
  ID:         3162    Distance:                        NaN
  ID:         3163    Distance:                        NaN
@@ -948,10 +1094,18 @@
  Nearest neighbors for atom ID:           17  are: 
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           18  are: 
+ ID:         2814    Distance:    3.2248280048370361     
+ ID:         2818    Distance:    3.2287063598632812     
+ ID:         2836    Distance:    3.2318966388702393     
  ID:         2840    Distance:                        NaN
  ID:         2841    Distance:                        NaN
+ ID:         2844    Distance:    3.1917369365692139     
  ID:         2845    Distance:                        NaN
+ ID:         2857    Distance:    3.0970232486724854     
  ID:         2860    Distance:                        NaN
+ ID:         2861    Distance:    3.0998234748840332     
+ ID:         2864    Distance:    3.1896953582763672     
+ ID:         2865    Distance:    3.1894495487213135     
  ID:         2908    Distance:    1.9839125871658325     
  ID:         2912    Distance:                        NaN
  ID:         2913    Distance:                        NaN
@@ -970,6 +1124,7 @@
  ID:         2944    Distance:                        NaN
  ID:         2945    Distance:                        NaN
  ID:         2949    Distance:                        NaN
+ ID:         2955    Distance:    3.3022048473358154     
  ID:         2956    Distance:    1.5716273784637451     
  ID:         2957    Distance:                        NaN
  ID:         2958    Distance:                        NaN
@@ -980,6 +1135,7 @@
  ID:         2963    Distance:    1.9272742271423340     
  ID:         2964    Distance:                        NaN
  ID:         2965    Distance:                        NaN
+ ID:         2966    Distance:    3.2980849742889404     
  ID:         3008    Distance:                        NaN
  ID:         3011    Distance:                        NaN
  ID:         3012    Distance:                        NaN
@@ -1016,21 +1172,31 @@
  ID:         3066    Distance:                        NaN
  ID:         3108    Distance:    2.0208413600921631     
  ID:         3112    Distance:                        NaN
+ ID:         3114    Distance:    3.1852564811706543     
  ID:         3116    Distance:    2.0539317131042480     
+ ID:         3118    Distance:    3.1841425895690918     
  ID:         3135    Distance:                        NaN
+ ID:         3136    Distance:    3.1948630809783936     
  ID:         3138    Distance:                        NaN
  ID:         3139    Distance:                        NaN
  ID:         3140    Distance:                        NaN
  ID:         3141    Distance:                        NaN
  ID:         3142    Distance:                        NaN
  ID:         3143    Distance:                        NaN
+ ID:         3144    Distance:    3.1971929073333740     
  ID:         3145    Distance:                        NaN
+ ID:         3155    Distance:    3.2679820060729980     
  ID:         3156    Distance:    1.4756146669387817     
+ ID:         3157    Distance:    3.1013386249542236     
  ID:         3158    Distance:                        NaN
  ID:         3159    Distance:                        NaN
  ID:         3160    Distance:                        NaN
+ ID:         3161    Distance:    3.0860471725463867     
  ID:         3162    Distance:                        NaN
  ID:         3163    Distance:    1.9991137981414795     
+ ID:         3164    Distance:    3.1784701347351074     
+ ID:         3165    Distance:    3.1254522800445557     
+ ID:         3166    Distance:    3.3311879634857178     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           19  are: 
  ID:         2840    Distance:    2.8531746864318848     
@@ -1041,6 +1207,7 @@
  ID:         2861    Distance:   0.26542207598686218     
  ID:         2864    Distance:    2.8115541934967041     
  ID:         2865    Distance:   0.47586306929588318     
+ ID:         2912    Distance:    3.1990578174591064     
  ID:         2914    Distance:    1.8106122016906738     
  ID:         2918    Distance:    1.8098925352096558     
  ID:         2935    Distance:                        NaN
@@ -1055,6 +1222,7 @@
  ID:         2944    Distance:                        NaN
  ID:         2945    Distance:                        NaN
  ID:         2949    Distance:    1.6126084327697754     
+ ID:         2955    Distance:    3.0933609008789062     
  ID:         2956    Distance:                        NaN
  ID:         2957    Distance:                        NaN
  ID:         2958    Distance:                        NaN
@@ -1081,6 +1249,7 @@
  ID:         3043    Distance:                        NaN
  ID:         3044    Distance:                        NaN
  ID:         3045    Distance:                        NaN
+ ID:         3046    Distance:    3.3258907794952393     
  ID:         3049    Distance:    1.6545101404190063     
  ID:         3055    Distance:                        NaN
  ID:         3056    Distance:                        NaN
@@ -1095,6 +1264,7 @@
  ID:         3065    Distance:                        NaN
  ID:         3066    Distance:                        NaN
  ID:         3069    Distance:    1.6358048915863037     
+ ID:         3112    Distance:    3.1888425350189209     
  ID:         3135    Distance:                        NaN
  ID:         3138    Distance:                        NaN
  ID:         3139    Distance:                        NaN
@@ -1103,6 +1273,7 @@
  ID:         3142    Distance:                        NaN
  ID:         3143    Distance:                        NaN
  ID:         3145    Distance:   0.72969084978103638     
+ ID:         3155    Distance:    3.0354981422424316     
  ID:         3156    Distance:                        NaN
  ID:         3157    Distance:    2.8385119438171387     
  ID:         3158    Distance:                        NaN
@@ -1128,10 +1299,12 @@
  ID:         2912    Distance:                        NaN
  ID:         2913    Distance:    1.7441002130508423     
  ID:         2914    Distance:                        NaN
+ ID:         2915    Distance:    3.1460707187652588     
  ID:         2916    Distance:                        NaN
  ID:         2917    Distance:    1.7178175449371338     
  ID:         2918    Distance:                        NaN
  ID:         2922    Distance:                        NaN
+ ID:         2935    Distance:    3.0886025428771973     
  ID:         2936    Distance:    1.7256022691726685     
  ID:         2938    Distance:                        NaN
  ID:         2939    Distance:                        NaN
@@ -1142,6 +1315,7 @@
  ID:         2944    Distance:                        NaN
  ID:         2945    Distance:                        NaN
  ID:         2946    Distance:                        NaN
+ ID:         2947    Distance:    3.1253411769866943     
  ID:         2948    Distance:    1.7328875064849854     
  ID:         2949    Distance:                        NaN
  ID:         2957    Distance:    1.6127231121063232     
@@ -1156,6 +1330,7 @@
  ID:         2966    Distance:                        NaN
  ID:         2968    Distance:    1.6626429557800293     
  ID:         2969    Distance:                        NaN
+ ID:         3008    Distance:    3.2625169754028320     
  ID:         3012    Distance:                        NaN
  ID:         3013    Distance:    1.7297102212905884     
  ID:         3014    Distance:                        NaN
@@ -1178,6 +1353,7 @@
  ID:         3047    Distance:                        NaN
  ID:         3048    Distance:    1.8020443916320801     
  ID:         3049    Distance:                        NaN
+ ID:         3056    Distance:    3.0651009082794189     
  ID:         3057    Distance:    1.5406070947647095     
  ID:         3058    Distance:                        NaN
  ID:         3059    Distance:                        NaN
@@ -1192,8 +1368,10 @@
  ID:         3068    Distance:    1.6855163574218750     
  ID:         3069    Distance:                        NaN
  ID:         3112    Distance:                        NaN
+ ID:         3115    Distance:    3.1449897289276123     
  ID:         3116    Distance:                        NaN
  ID:         3118    Distance:    2.8016376495361328     
+ ID:         3135    Distance:    3.0400533676147461     
  ID:         3138    Distance:                        NaN
  ID:         3139    Distance:                        NaN
  ID:         3140    Distance:   0.36791270971298218     
@@ -1203,6 +1381,7 @@
  ID:         3144    Distance:   0.58277958631515503     
  ID:         3145    Distance:                        NaN
  ID:         3146    Distance:                        NaN
+ ID:         3147    Distance:    3.0927708148956299     
  ID:         3149    Distance:    2.8117389678955078     
  ID:         3158    Distance:                        NaN
  ID:         3159    Distance:                        NaN
@@ -1214,10 +1393,15 @@
  ID:         3166    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           21  are: 
+ ID:         2836    Distance:    3.2376670837402344     
+ ID:         2837    Distance:    3.2745382785797119     
+ ID:         2840    Distance:    3.1121261119842529     
  ID:         2841    Distance:                        NaN
+ ID:         2845    Distance:    3.1036069393157959     
  ID:         2857    Distance:                        NaN
  ID:         2860    Distance:                        NaN
  ID:         2861    Distance:                        NaN
+ ID:         2865    Distance:    3.1536417007446289     
  ID:         2914    Distance:                        NaN
  ID:         2934    Distance:    2.0938911437988281     
  ID:         2935    Distance:                        NaN
@@ -1228,6 +1412,7 @@
  ID:         2940    Distance:                        NaN
  ID:         2941    Distance:                        NaN
  ID:         2942    Distance:    1.9274959564208984     
+ ID:         2943    Distance:    3.3123497962951660     
  ID:         2945    Distance:                        NaN
  ID:         2955    Distance:                        NaN
  ID:         2956    Distance:                        NaN
@@ -1267,10 +1452,15 @@
  ID:         3065    Distance:                        NaN
  ID:         3134    Distance:    2.0154640674591064     
  ID:         3135    Distance:                        NaN
+ ID:         3136    Distance:    3.1978588104248047     
+ ID:         3137    Distance:    3.2229146957397461     
  ID:         3138    Distance:                        NaN
  ID:         3139    Distance:                        NaN
+ ID:         3140    Distance:    3.1647031307220459     
  ID:         3141    Distance:                        NaN
  ID:         3142    Distance:    1.8174738883972168     
+ ID:         3143    Distance:    3.3283922672271729     
+ ID:         3145    Distance:    3.1717815399169922     
  ID:         3155    Distance:                        NaN
  ID:         3156    Distance:                        NaN
  ID:         3157    Distance:                        NaN
@@ -1279,6 +1469,7 @@
  ID:         3160    Distance:                        NaN
  ID:         3161    Distance:                        NaN
  ID:         3162    Distance:                        NaN
+ ID:         3165    Distance:    3.1009707450866699     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           22  are: 
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1289,6 +1480,7 @@
  ID:         2857    Distance:                        NaN
  ID:         2860    Distance:    2.8042445182800293     
  ID:         2861    Distance:   0.38483440876007080     
+ ID:         2908    Distance:    3.0509061813354492     
  ID:         2910    Distance:    1.6971554756164551     
  ID:         2914    Distance:    1.5760556459426880     
  ID:         2932    Distance:                        NaN
@@ -1309,10 +1501,14 @@
  ID:         2959    Distance:                        NaN
  ID:         2960    Distance:                        NaN
  ID:         2961    Distance:                        NaN
+ ID:         2962    Distance:    3.1148436069488525     
  ID:         2965    Distance:    1.7827314138412476     
+ ID:         3004    Distance:    3.2446892261505127     
  ID:         3008    Distance:                        NaN
  ID:         3010    Distance:    1.6163557767868042     
+ ID:         3012    Distance:    3.2651157379150391     
  ID:         3014    Distance:    1.6739636659622192     
+ ID:         3031    Distance:    3.2168734073638916     
  ID:         3032    Distance:                        NaN
  ID:         3033    Distance:                        NaN
  ID:         3034    Distance:                        NaN
@@ -1323,6 +1519,7 @@
  ID:         3039    Distance:                        NaN
  ID:         3040    Distance:                        NaN
  ID:         3041    Distance:                        NaN
+ ID:         3042    Distance:    3.3139765262603760     
  ID:         3045    Distance:    1.5924677848815918     
  ID:         3055    Distance:                        NaN
  ID:         3056    Distance:                        NaN
@@ -1333,6 +1530,7 @@
  ID:         3061    Distance:                        NaN
  ID:         3062    Distance:                        NaN
  ID:         3065    Distance:    1.8209997415542603     
+ ID:         3108    Distance:    3.0466001033782959     
  ID:         3132    Distance:                        NaN
  ID:         3134    Distance:                        NaN
  ID:         3135    Distance:                        NaN
@@ -1348,6 +1546,7 @@
  ID:         3159    Distance:                        NaN
  ID:         3160    Distance:    2.8505878448486328     
  ID:         3161    Distance:   0.48503217101097107     
+ ID:         3162    Distance:    3.1284222602844238     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           24  are: 
  ID:         2814    Distance:    2.8696248531341553     
@@ -1362,10 +1561,12 @@
  ID:         2908    Distance:                        NaN
  ID:         2909    Distance:    1.7808333635330200     
  ID:         2910    Distance:                        NaN
+ ID:         2911    Distance:    3.1578726768493652     
  ID:         2912    Distance:                        NaN
  ID:         2913    Distance:    1.7677022218704224     
  ID:         2914    Distance:                        NaN
  ID:         2918    Distance:                        NaN
+ ID:         2932    Distance:    3.0347728729248047     
  ID:         2933    Distance:    1.7428234815597534     
  ID:         2934    Distance:                        NaN
  ID:         2935    Distance:                        NaN
@@ -1376,6 +1577,7 @@
  ID:         2940    Distance:                        NaN
  ID:         2941    Distance:                        NaN
  ID:         2942    Distance:                        NaN
+ ID:         2943    Distance:    3.0828888416290283     
  ID:         2944    Distance:    1.7116419076919556     
  ID:         2945    Distance:                        NaN
  ID:         2955    Distance:                        NaN
@@ -1388,6 +1590,8 @@
  ID:         2962    Distance:                        NaN
  ID:         2964    Distance:    1.6137588024139404     
  ID:         2965    Distance:                        NaN
+ ID:         3004    Distance:    3.2899832725524902     
+ ID:         3007    Distance:    3.3133659362792969     
  ID:         3008    Distance:                        NaN
  ID:         3009    Distance:    1.7529250383377075     
  ID:         3010    Distance:                        NaN
@@ -1395,6 +1599,7 @@
  ID:         3012    Distance:                        NaN
  ID:         3013    Distance:    1.7677043676376343     
  ID:         3014    Distance:                        NaN
+ ID:         3015    Distance:    3.3081111907958984     
  ID:         3018    Distance:                        NaN
  ID:         3032    Distance:                        NaN
  ID:         3033    Distance:    1.6270328760147095     
@@ -1421,8 +1626,10 @@
  ID:         3064    Distance:    1.7428573369979858     
  ID:         3065    Distance:                        NaN
  ID:         3108    Distance:                        NaN
+ ID:         3111    Distance:    3.1140711307525635     
  ID:         3112    Distance:                        NaN
  ID:         3114    Distance:    2.8227317333221436     
+ ID:         3132    Distance:    3.0605580806732178     
  ID:         3134    Distance:                        NaN
  ID:         3135    Distance:                        NaN
  ID:         3136    Distance:   0.50778055191040039     
@@ -1432,6 +1639,7 @@
  ID:         3140    Distance:   0.64474022388458252     
  ID:         3141    Distance:                        NaN
  ID:         3142    Distance:                        NaN
+ ID:         3143    Distance:    3.0924141407012939     
  ID:         3145    Distance:    2.9169805049896240     
  ID:         3155    Distance:                        NaN
  ID:         3156    Distance:                        NaN
@@ -1456,6 +1664,7 @@
  ID:         2904    Distance:                        NaN
  ID:         2905    Distance:    1.7232928276062012     
  ID:         2906    Distance:                        NaN
+ ID:         2907    Distance:    3.1497507095336914     
  ID:         2908    Distance:                        NaN
  ID:         2909    Distance:    1.8034241199493408     
  ID:         2910    Distance:                        NaN
@@ -1468,6 +1677,7 @@
  ID:         2936    Distance:                        NaN
  ID:         2937    Distance:                        NaN
  ID:         2938    Distance:                        NaN
+ ID:         2939    Distance:    3.1813023090362549     
  ID:         2940    Distance:    1.8888041973114014     
  ID:         2941    Distance:                        NaN
  ID:         2955    Distance:                        NaN
@@ -1476,6 +1686,8 @@
  ID:         2958    Distance:                        NaN
  ID:         2960    Distance:    1.9490211009979248     
  ID:         2961    Distance:                        NaN
+ ID:         3001    Distance:    3.0134875774383545     
+ ID:         3003    Distance:    3.2968592643737793     
  ID:         3004    Distance:                        NaN
  ID:         3005    Distance:    1.7078310251235962     
  ID:         3006    Distance:                        NaN
@@ -1502,6 +1714,7 @@
  ID:         3060    Distance:    1.9886256456375122     
  ID:         3061    Distance:                        NaN
  ID:         3104    Distance:                        NaN
+ ID:         3107    Distance:    3.1319751739501953     
  ID:         3108    Distance:                        NaN
  ID:         3110    Distance:    2.8413004875183105     
  ID:         3131    Distance:                        NaN
@@ -1512,6 +1725,7 @@
  ID:         3136    Distance:   0.60907989740371704     
  ID:         3137    Distance:                        NaN
  ID:         3138    Distance:                        NaN
+ ID:         3139    Distance:    3.2361760139465332     
  ID:         3141    Distance:    2.9288539886474609     
  ID:         3155    Distance:                        NaN
  ID:         3156    Distance:                        NaN
@@ -1519,13 +1733,19 @@
  ID:         3158    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           28  are: 
+ ID:         2800    Distance:    3.0241591930389404     
  ID:         2825    Distance:    2.9621536731719971     
  ID:         2829    Distance:                        NaN
  ID:         2830    Distance:                        NaN
+ ID:         2852    Distance:    3.0028297901153564     
  ID:         2894    Distance:    1.5846537351608276     
+ ID:         2895    Distance:    3.3190910816192627     
+ ID:         2896    Distance:    3.2112951278686523     
+ ID:         2897    Distance:    3.2593085765838623     
  ID:         2898    Distance:                        NaN
  ID:         2899    Distance:                        NaN
  ID:         2900    Distance:                        NaN
+ ID:         2923    Distance:    3.1171960830688477     
  ID:         2924    Distance:                        NaN
  ID:         2925    Distance:                        NaN
  ID:         2926    Distance:                        NaN
@@ -1533,10 +1753,14 @@
  ID:         2928    Distance:                        NaN
  ID:         2929    Distance:                        NaN
  ID:         2930    Distance:                        NaN
+ ID:         2950    Distance:    3.1151223182678223     
  ID:         2951    Distance:    1.7025963068008423     
  ID:         2952    Distance:                        NaN
+ ID:         2953    Distance:    3.2427504062652588     
  ID:         2954    Distance:                        NaN
  ID:         2994    Distance:                        NaN
+ ID:         2995    Distance:    3.3100070953369141     
+ ID:         2996    Distance:    3.2009847164154053     
  ID:         2997    Distance:                        NaN
  ID:         2998    Distance:                        NaN
  ID:         2999    Distance:                        NaN
@@ -1552,22 +1776,31 @@
  ID:         3050    Distance:                        NaN
  ID:         3051    Distance:                        NaN
  ID:         3052    Distance:                        NaN
+ ID:         3053    Distance:    3.2346251010894775     
  ID:         3054    Distance:                        NaN
  ID:         3094    Distance:    1.3877183198928833     
+ ID:         3097    Distance:    3.2507100105285645     
  ID:         3098    Distance:                        NaN
+ ID:         3100    Distance:    3.0245413780212402     
+ ID:         3123    Distance:    3.1013765335083008     
  ID:         3124    Distance:                        NaN
  ID:         3125    Distance:    2.9371266365051270     
  ID:         3127    Distance:                        NaN
  ID:         3128    Distance:                        NaN
  ID:         3129    Distance:                        NaN
  ID:         3130    Distance:                        NaN
+ ID:         3150    Distance:    3.1224377155303955     
  ID:         3151    Distance:    1.5600248575210571     
  ID:         3152    Distance:    2.9632973670959473     
  ID:         3154    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           29  are: 
+ ID:         2825    Distance:    3.1437811851501465     
+ ID:         2826    Distance:    3.1095888614654541     
+ ID:         2829    Distance:    3.1194012165069580     
  ID:         2830    Distance:                        NaN
  ID:         2852    Distance:                        NaN
+ ID:         2853    Distance:    3.1173899173736572     
  ID:         2900    Distance:                        NaN
  ID:         2923    Distance:    1.8745254278182983     
  ID:         2924    Distance:                        NaN
@@ -1604,22 +1837,34 @@
  ID:         3053    Distance:                        NaN
  ID:         3054    Distance:                        NaN
  ID:         3070    Distance:                        NaN
+ ID:         3094    Distance:    3.3105762004852295     
+ ID:         3120    Distance:    3.2977988719940186     
  ID:         3123    Distance:    1.8413302898406982     
  ID:         3124    Distance:                        NaN
+ ID:         3125    Distance:    3.1606810092926025     
+ ID:         3126    Distance:    3.0918514728546143     
  ID:         3127    Distance:                        NaN
  ID:         3128    Distance:                        NaN
+ ID:         3129    Distance:    3.1794848442077637     
  ID:         3130    Distance:                        NaN
  ID:         3150    Distance:                        NaN
  ID:         3151    Distance:                        NaN
  ID:         3152    Distance:                        NaN
+ ID:         3153    Distance:    3.1311602592468262     
  ID:         3154    Distance:                        NaN
  ID:         3170    Distance:    1.8709168434143066     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           30  are: 
+ ID:         2796    Distance:    3.2160105705261230     
+ ID:         2800    Distance:    3.1798446178436279     
+ ID:         2821    Distance:    3.1632938385009766     
  ID:         2825    Distance:                        NaN
  ID:         2826    Distance:                        NaN
+ ID:         2829    Distance:    3.0523867607116699     
  ID:         2830    Distance:                        NaN
+ ID:         2848    Distance:    3.1625366210937500     
  ID:         2852    Distance:                        NaN
+ ID:         2853    Distance:    3.1629254817962646     
  ID:         2890    Distance:    1.9186617136001587     
  ID:         2894    Distance:                        NaN
  ID:         2895    Distance:                        NaN
@@ -1675,19 +1920,25 @@
  ID:         3070    Distance:                        NaN
  ID:         3090    Distance:    1.9578989744186401     
  ID:         3094    Distance:                        NaN
+ ID:         3096    Distance:    3.1153693199157715     
  ID:         3098    Distance:    1.9654639959335327     
+ ID:         3100    Distance:    3.2159013748168945     
  ID:         3120    Distance:                        NaN
+ ID:         3121    Distance:    3.1964106559753418     
  ID:         3123    Distance:                        NaN
  ID:         3124    Distance:                        NaN
  ID:         3125    Distance:                        NaN
  ID:         3126    Distance:                        NaN
  ID:         3127    Distance:                        NaN
  ID:         3128    Distance:                        NaN
+ ID:         3129    Distance:    3.1213235855102539     
  ID:         3130    Distance:                        NaN
  ID:         3147    Distance:    1.9907006025314331     
+ ID:         3148    Distance:    3.1891770362854004     
  ID:         3150    Distance:                        NaN
  ID:         3151    Distance:                        NaN
  ID:         3152    Distance:                        NaN
+ ID:         3153    Distance:    3.1706836223602295     
  ID:         3154    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           31  are: 
@@ -1697,6 +1948,7 @@
  ID:         2848    Distance:    2.8145720958709717     
  ID:         2852    Distance:                        NaN
  ID:         2853    Distance:   0.41084915399551392     
+ ID:         2894    Distance:    3.1756408214569092     
  ID:         2896    Distance:    1.7229994535446167     
  ID:         2900    Distance:    1.8081244230270386     
  ID:         2920    Distance:                        NaN
@@ -1710,6 +1962,7 @@
  ID:         2928    Distance:                        NaN
  ID:         2929    Distance:                        NaN
  ID:         2930    Distance:                        NaN
+ ID:         2946    Distance:    3.1054072380065918     
  ID:         2947    Distance:                        NaN
  ID:         2948    Distance:                        NaN
  ID:         2949    Distance:    1.7262719869613647     
@@ -1720,9 +1973,12 @@
  ID:         2954    Distance:                        NaN
  ID:         2968    Distance:                        NaN
  ID:         2970    Distance:                        NaN
+ ID:         2990    Distance:    3.3235914707183838     
  ID:         2994    Distance:                        NaN
  ID:         2996    Distance:    1.6967732906341553     
+ ID:         2998    Distance:    3.3101942539215088     
  ID:         3000    Distance:    1.7694299221038818     
+ ID:         3019    Distance:    3.3246467113494873     
  ID:         3020    Distance:                        NaN
  ID:         3021    Distance:                        NaN
  ID:         3022    Distance:    1.6409748792648315     
@@ -1743,8 +1999,10 @@
  ID:         3052    Distance:                        NaN
  ID:         3053    Distance:                        NaN
  ID:         3054    Distance:                        NaN
+ ID:         3067    Distance:    3.0376143455505371     
  ID:         3068    Distance:                        NaN
  ID:         3070    Distance:                        NaN
+ ID:         3094    Distance:    3.0940408706665039     
  ID:         3120    Distance:                        NaN
  ID:         3123    Distance:                        NaN
  ID:         3124    Distance:                        NaN
@@ -1753,6 +2011,7 @@
  ID:         3127    Distance:                        NaN
  ID:         3128    Distance:                        NaN
  ID:         3130    Distance:   0.51667171716690063     
+ ID:         3146    Distance:    3.0915668010711670     
  ID:         3147    Distance:                        NaN
  ID:         3148    Distance:    2.8563246726989746     
  ID:         3150    Distance:                        NaN
@@ -1772,9 +2031,11 @@
  ID:         2894    Distance:                        NaN
  ID:         2895    Distance:    1.5834712982177734     
  ID:         2896    Distance:                        NaN
+ ID:         2897    Distance:    3.0868330001831055     
  ID:         2898    Distance:                        NaN
  ID:         2899    Distance:    1.7464007139205933     
  ID:         2900    Distance:                        NaN
+ ID:         2920    Distance:    3.0214135646820068     
  ID:         2921    Distance:    1.3687895536422729     
  ID:         2923    Distance:                        NaN
  ID:         2924    Distance:                        NaN
@@ -1790,6 +2051,8 @@
  ID:         2952    Distance:                        NaN
  ID:         2953    Distance:                        NaN
  ID:         2954    Distance:                        NaN
+ ID:         2990    Distance:    3.1850163936614990     
+ ID:         2993    Distance:    3.2331376075744629     
  ID:         2994    Distance:                        NaN
  ID:         2995    Distance:    1.5754783153533936     
  ID:         2996    Distance:                        NaN
@@ -1807,13 +2070,16 @@
  ID:         3028    Distance:                        NaN
  ID:         3029    Distance:                        NaN
  ID:         3030    Distance:                        NaN
+ ID:         3047    Distance:    3.2254674434661865     
  ID:         3048    Distance:    1.4366292953491211     
  ID:         3050    Distance:                        NaN
  ID:         3051    Distance:                        NaN
  ID:         3052    Distance:                        NaN
  ID:         3053    Distance:                        NaN
  ID:         3054    Distance:                        NaN
+ ID:         3070    Distance:    3.1966655254364014     
  ID:         3094    Distance:                        NaN
+ ID:         3097    Distance:    3.0935039520263672     
  ID:         3098    Distance:                        NaN
  ID:         3100    Distance:    2.8504247665405273     
  ID:         3120    Distance:    2.9632112979888916     
@@ -1831,10 +2097,16 @@
  ID:         3154    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           33  are: 
+ ID:         2821    Distance:    3.1944272518157959     
+ ID:         2822    Distance:    3.1846671104431152     
+ ID:         2825    Distance:    3.1836674213409424     
  ID:         2826    Distance:                        NaN
+ ID:         2830    Distance:    3.1414465904235840     
  ID:         2848    Distance:                        NaN
+ ID:         2849    Distance:    3.2195339202880859     
  ID:         2852    Distance:                        NaN
  ID:         2853    Distance:                        NaN
+ ID:         2868    Distance:    3.1193201541900635     
  ID:         2896    Distance:                        NaN
  ID:         2919    Distance:    1.9783102273941040     
  ID:         2920    Distance:                        NaN
@@ -1845,6 +2117,7 @@
  ID:         2925    Distance:                        NaN
  ID:         2926    Distance:                        NaN
  ID:         2927    Distance:    2.0339908599853516     
+ ID:         2928    Distance:    3.0772852897644043     
  ID:         2930    Distance:                        NaN
  ID:         2944    Distance:                        NaN
  ID:         2946    Distance:                        NaN
@@ -1857,6 +2130,7 @@
  ID:         2953    Distance:                        NaN
  ID:         2954    Distance:                        NaN
  ID:         2966    Distance:    2.0249955654144287     
+ ID:         2967    Distance:    3.1571161746978760     
  ID:         2968    Distance:                        NaN
  ID:         2970    Distance:                        NaN
  ID:         2990    Distance:                        NaN
@@ -1891,26 +2165,42 @@
  ID:         3070    Distance:                        NaN
  ID:         3119    Distance:    1.9386386871337891     
  ID:         3120    Distance:                        NaN
+ ID:         3121    Distance:    3.2205240726470947     
+ ID:         3122    Distance:    3.1884539127349854     
  ID:         3123    Distance:                        NaN
  ID:         3124    Distance:                        NaN
+ ID:         3125    Distance:    3.2569344043731689     
  ID:         3126    Distance:                        NaN
  ID:         3127    Distance:    2.0745580196380615     
+ ID:         3128    Distance:    3.1775963306427002     
+ ID:         3130    Distance:    3.1610007286071777     
  ID:         3146    Distance:                        NaN
  ID:         3147    Distance:                        NaN
  ID:         3148    Distance:                        NaN
+ ID:         3149    Distance:    3.2017176151275635     
  ID:         3150    Distance:                        NaN
  ID:         3151    Distance:                        NaN
  ID:         3152    Distance:                        NaN
  ID:         3153    Distance:                        NaN
  ID:         3154    Distance:                        NaN
  ID:         3166    Distance:    2.0122752189636230     
+ ID:         3167    Distance:    3.1181995868682861     
+ ID:         3168    Distance:    3.1316375732421875     
  ID:         3170    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           34  are: 
+ ID:         2792    Distance:    3.1878323554992676     
+ ID:         2796    Distance:    3.2371072769165039     
+ ID:         2817    Distance:    3.1831860542297363     
  ID:         2821    Distance:                        NaN
  ID:         2822    Distance:                        NaN
+ ID:         2825    Distance:    3.1626591682434082     
  ID:         2826    Distance:                        NaN
+ ID:         2844    Distance:    3.1738221645355225     
  ID:         2848    Distance:                        NaN
+ ID:         2849    Distance:    3.1983451843261719     
+ ID:         2852    Distance:    3.0953199863433838     
+ ID:         2853    Distance:    3.1341180801391602     
  ID:         2886    Distance:    1.9727510213851929     
  ID:         2890    Distance:                        NaN
  ID:         2891    Distance:                        NaN
@@ -1939,7 +2229,9 @@
  ID:         2951    Distance:    1.8434810638427734     
  ID:         2952    Distance:                        NaN
  ID:         2953    Distance:                        NaN
+ ID:         2954    Distance:    3.2816028594970703     
  ID:         2968    Distance:                        NaN
+ ID:         2970    Distance:    3.2811255455017090     
  ID:         2986    Distance:                        NaN
  ID:         2989    Distance:                        NaN
  ID:         2990    Distance:                        NaN
@@ -1979,21 +2271,31 @@
  ID:         3070    Distance:                        NaN
  ID:         3086    Distance:    2.0194084644317627     
  ID:         3090    Distance:                        NaN
+ ID:         3092    Distance:    3.1537077426910400     
  ID:         3094    Distance:    2.0528030395507812     
+ ID:         3096    Distance:    3.2046818733215332     
  ID:         3116    Distance:                        NaN
+ ID:         3117    Distance:    3.1959147453308105     
  ID:         3119    Distance:                        NaN
  ID:         3120    Distance:                        NaN
  ID:         3121    Distance:                        NaN
  ID:         3122    Distance:                        NaN
  ID:         3123    Distance:                        NaN
  ID:         3124    Distance:                        NaN
+ ID:         3125    Distance:    3.2523241043090820     
  ID:         3126    Distance:                        NaN
  ID:         3143    Distance:    1.9633127450942993     
+ ID:         3144    Distance:    3.1862740516662598     
  ID:         3146    Distance:                        NaN
  ID:         3147    Distance:                        NaN
  ID:         3148    Distance:                        NaN
+ ID:         3149    Distance:    3.1781125068664551     
  ID:         3150    Distance:                        NaN
  ID:         3151    Distance:    1.7766331434249878     
+ ID:         3152    Distance:    3.1671910285949707     
+ ID:         3153    Distance:    3.1413967609405518     
+ ID:         3154    Distance:    3.3133423328399658     
+ ID:         3170    Distance:    3.2702388763427734     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           35  are: 
  ID:         2821    Distance:    2.8898413181304932     
@@ -2005,6 +2307,7 @@
  ID:         2852    Distance:    2.7451071739196777     
  ID:         2853    Distance:   0.30552831292152405     
  ID:         2868    Distance:    2.7504324913024902     
+ ID:         2890    Distance:    3.1332745552062988     
  ID:         2892    Distance:    1.7271345853805542     
  ID:         2896    Distance:    1.8129913806915283     
  ID:         2916    Distance:                        NaN
@@ -2019,6 +2322,7 @@
  ID:         2925    Distance:                        NaN
  ID:         2926    Distance:                        NaN
  ID:         2930    Distance:    1.5008784532546997     
+ ID:         2942    Distance:    3.1566143035888672     
  ID:         2943    Distance:                        NaN
  ID:         2944    Distance:                        NaN
  ID:         2945    Distance:    1.7504533529281616     
@@ -2051,6 +2355,7 @@
  ID:         3024    Distance:                        NaN
  ID:         3025    Distance:                        NaN
  ID:         3026    Distance:                        NaN
+ ID:         3027    Distance:    3.2964820861816406     
  ID:         3030    Distance:    1.5603806972503662     
  ID:         3042    Distance:                        NaN
  ID:         3043    Distance:                        NaN
@@ -2065,12 +2370,14 @@
  ID:         3052    Distance:                        NaN
  ID:         3053    Distance:                        NaN
  ID:         3054    Distance:                        NaN
+ ID:         3063    Distance:    3.3210506439208984     
  ID:         3064    Distance:                        NaN
  ID:         3066    Distance:                        NaN
  ID:         3067    Distance:                        NaN
  ID:         3068    Distance:                        NaN
  ID:         3069    Distance:    1.4324690103530884     
  ID:         3070    Distance:                        NaN
+ ID:         3090    Distance:    3.1805064678192139     
  ID:         3116    Distance:                        NaN
  ID:         3119    Distance:                        NaN
  ID:         3120    Distance:                        NaN
@@ -2079,6 +2386,7 @@
  ID:         3123    Distance:                        NaN
  ID:         3124    Distance:                        NaN
  ID:         3126    Distance:   0.67412030696868896     
+ ID:         3142    Distance:    3.1241161823272705     
  ID:         3143    Distance:                        NaN
  ID:         3144    Distance:    2.8654859066009521     
  ID:         3146    Distance:                        NaN
@@ -2089,6 +2397,7 @@
  ID:         3151    Distance:                        NaN
  ID:         3152    Distance:    2.8444201946258545     
  ID:         3153    Distance:   0.41756355762481689     
+ ID:         3154    Distance:    3.0102560520172119     
  ID:         3166    Distance:                        NaN
  ID:         3167    Distance:    2.7270147800445557     
  ID:         3168    Distance:    2.7583057880401611     
@@ -2107,10 +2416,12 @@
  ID:         2890    Distance:                        NaN
  ID:         2891    Distance:    1.7474859952926636     
  ID:         2892    Distance:                        NaN
+ ID:         2893    Distance:    3.1211075782775879     
  ID:         2894    Distance:                        NaN
  ID:         2895    Distance:    1.7704429626464844     
  ID:         2896    Distance:                        NaN
  ID:         2900    Distance:                        NaN
+ ID:         2916    Distance:    3.0879650115966797     
  ID:         2917    Distance:    1.7081683874130249     
  ID:         2919    Distance:                        NaN
  ID:         2920    Distance:                        NaN
@@ -2135,6 +2446,9 @@
  ID:         2953    Distance:                        NaN
  ID:         2954    Distance:                        NaN
  ID:         2968    Distance:    1.4535384178161621     
+ ID:         2970    Distance:    3.0027892589569092     
+ ID:         2986    Distance:    3.3222782611846924     
+ ID:         2989    Distance:    3.2930057048797607     
  ID:         2990    Distance:                        NaN
  ID:         2991    Distance:    1.6893899440765381     
  ID:         2992    Distance:                        NaN
@@ -2142,6 +2456,7 @@
  ID:         2994    Distance:                        NaN
  ID:         2995    Distance:    1.7838459014892578     
  ID:         2996    Distance:                        NaN
+ ID:         2998    Distance:    3.3044157028198242     
  ID:         3000    Distance:                        NaN
  ID:         3016    Distance:                        NaN
  ID:         3017    Distance:    1.6786901950836182     
@@ -2170,8 +2485,10 @@
  ID:         3068    Distance:    1.4754782915115356     
  ID:         3070    Distance:                        NaN
  ID:         3090    Distance:                        NaN
+ ID:         3093    Distance:    3.1383419036865234     
  ID:         3094    Distance:                        NaN
  ID:         3096    Distance:    2.8359432220458984     
+ ID:         3116    Distance:    3.1306107044219971     
  ID:         3119    Distance:                        NaN
  ID:         3120    Distance:                        NaN
  ID:         3121    Distance:   0.70890432596206665     
@@ -2196,10 +2513,18 @@
  Nearest neighbors for atom ID:           37  are: 
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           38  are: 
+ ID:         2788    Distance:    3.1942703723907471     
+ ID:         2792    Distance:    3.1814055442810059     
+ ID:         2813    Distance:    3.2114868164062500     
  ID:         2817    Distance:                        NaN
  ID:         2818    Distance:                        NaN
+ ID:         2821    Distance:    3.1859982013702393     
  ID:         2822    Distance:                        NaN
+ ID:         2840    Distance:    3.1752858161926270     
  ID:         2844    Distance:                        NaN
+ ID:         2845    Distance:    3.1966290473937988     
+ ID:         2848    Distance:    3.1480655670166016     
+ ID:         2849    Distance:    3.1727137565612793     
  ID:         2882    Distance:    2.0145280361175537     
  ID:         2886    Distance:                        NaN
  ID:         2887    Distance:                        NaN
@@ -2268,21 +2593,29 @@
  ID:         3066    Distance:                        NaN
  ID:         3082    Distance:    2.0639510154724121     
  ID:         3086    Distance:                        NaN
+ ID:         3088    Distance:    3.2245547771453857     
  ID:         3090    Distance:    2.0492739677429199     
+ ID:         3092    Distance:    3.1533129215240479     
  ID:         3112    Distance:                        NaN
+ ID:         3113    Distance:    3.2059109210968018     
  ID:         3115    Distance:                        NaN
  ID:         3116    Distance:                        NaN
  ID:         3117    Distance:                        NaN
  ID:         3118    Distance:                        NaN
  ID:         3119    Distance:                        NaN
  ID:         3120    Distance:                        NaN
+ ID:         3121    Distance:    3.2070541381835938     
  ID:         3122    Distance:                        NaN
  ID:         3139    Distance:    2.0154149532318115     
+ ID:         3140    Distance:    3.1479482650756836     
  ID:         3142    Distance:                        NaN
  ID:         3143    Distance:                        NaN
  ID:         3144    Distance:                        NaN
+ ID:         3145    Distance:    3.2339875698089600     
  ID:         3146    Distance:                        NaN
  ID:         3147    Distance:    1.8713556528091431     
+ ID:         3148    Distance:    3.1758768558502197     
+ ID:         3149    Distance:    3.1582446098327637     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           39  are: 
  ID:         2817    Distance:    2.8584752082824707     
@@ -2294,6 +2627,7 @@
  ID:         2848    Distance:    2.8167147636413574     
  ID:         2849    Distance:   0.49277231097221375     
  ID:         2864    Distance:    2.9396429061889648     
+ ID:         2886    Distance:    3.0920825004577637     
  ID:         2888    Distance:    1.7203328609466553     
  ID:         2892    Distance:    1.6375132799148560     
  ID:         2912    Distance:                        NaN
@@ -2308,6 +2642,7 @@
  ID:         2921    Distance:                        NaN
  ID:         2922    Distance:                        NaN
  ID:         2926    Distance:    1.7114803791046143     
+ ID:         2938    Distance:    3.1332044601440430     
  ID:         2939    Distance:                        NaN
  ID:         2940    Distance:                        NaN
  ID:         2941    Distance:    1.7383130788803101     
@@ -2319,16 +2654,20 @@
  ID:         2947    Distance:                        NaN
  ID:         2948    Distance:                        NaN
  ID:         2949    Distance:                        NaN
+ ID:         2950    Distance:    3.0797121524810791     
  ID:         2953    Distance:    1.7573773860931396     
  ID:         2960    Distance:                        NaN
  ID:         2962    Distance:                        NaN
+ ID:         2963    Distance:    3.1549735069274902     
  ID:         2964    Distance:                        NaN
  ID:         2965    Distance:    1.8450974225997925     
  ID:         2966    Distance:                        NaN
  ID:         2968    Distance:                        NaN
  ID:         2969    Distance:    1.6042743921279907     
+ ID:         2982    Distance:    3.2894005775451660     
  ID:         2986    Distance:                        NaN
  ID:         2988    Distance:    1.6559597253799438     
+ ID:         2990    Distance:    3.3262429237365723     
  ID:         2992    Distance:    1.7478842735290527     
  ID:         3012    Distance:                        NaN
  ID:         3013    Distance:                        NaN
@@ -2341,6 +2680,7 @@
  ID:         3020    Distance:                        NaN
  ID:         3021    Distance:                        NaN
  ID:         3022    Distance:                        NaN
+ ID:         3023    Distance:    3.3213388919830322     
  ID:         3026    Distance:    1.7397586107254028     
  ID:         3038    Distance:                        NaN
  ID:         3039    Distance:                        NaN
@@ -2356,6 +2696,7 @@
  ID:         3049    Distance:                        NaN
  ID:         3050    Distance:                        NaN
  ID:         3053    Distance:    1.7662945985794067     
+ ID:         3058    Distance:    3.2872805595397949     
  ID:         3060    Distance:                        NaN
  ID:         3062    Distance:                        NaN
  ID:         3063    Distance:                        NaN
@@ -2365,6 +2706,8 @@
  ID:         3067    Distance:    2.9176602363586426     
  ID:         3068    Distance:                        NaN
  ID:         3069    Distance:    1.5656145811080933     
+ ID:         3070    Distance:    3.1705343723297119     
+ ID:         3086    Distance:    3.1042811870574951     
  ID:         3112    Distance:                        NaN
  ID:         3115    Distance:                        NaN
  ID:         3116    Distance:                        NaN
@@ -2373,6 +2716,7 @@
  ID:         3119    Distance:                        NaN
  ID:         3120    Distance:                        NaN
  ID:         3122    Distance:   0.43193218111991882     
+ ID:         3138    Distance:    3.0449368953704834     
  ID:         3139    Distance:                        NaN
  ID:         3140    Distance:    2.8032417297363281     
  ID:         3142    Distance:                        NaN
@@ -2383,7 +2727,9 @@
  ID:         3147    Distance:                        NaN
  ID:         3148    Distance:    2.8594748973846436     
  ID:         3149    Distance:   0.42973631620407104     
+ ID:         3150    Distance:    3.0974035263061523     
  ID:         3162    Distance:                        NaN
+ ID:         3163    Distance:    3.1426556110382080     
  ID:         3164    Distance:    2.9016048908233643     
  ID:         3166    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2400,10 +2746,12 @@
  ID:         2886    Distance:                        NaN
  ID:         2887    Distance:    1.7004082202911377     
  ID:         2888    Distance:                        NaN
+ ID:         2889    Distance:    3.1520454883575439     
  ID:         2890    Distance:                        NaN
  ID:         2891    Distance:    1.7383371591567993     
  ID:         2892    Distance:                        NaN
  ID:         2896    Distance:                        NaN
+ ID:         2912    Distance:    3.2231380939483643     
  ID:         2913    Distance:    1.7948708534240723     
  ID:         2915    Distance:                        NaN
  ID:         2916    Distance:                        NaN
@@ -2430,6 +2778,7 @@
  ID:         2952    Distance:    1.6843707561492920     
  ID:         2953    Distance:                        NaN
  ID:         2964    Distance:    1.8871321678161621     
+ ID:         2966    Distance:    3.0801758766174316     
  ID:         2968    Distance:    1.4623599052429199     
  ID:         2986    Distance:                        NaN
  ID:         2987    Distance:    1.7207518815994263     
@@ -2438,6 +2787,7 @@
  ID:         2990    Distance:                        NaN
  ID:         2991    Distance:    1.6555866003036499     
  ID:         2992    Distance:                        NaN
+ ID:         2993    Distance:    3.3215692043304443     
  ID:         2996    Distance:                        NaN
  ID:         3012    Distance:                        NaN
  ID:         3013    Distance:    1.7864795923233032     
@@ -2463,14 +2813,18 @@
  ID:         3048    Distance:                        NaN
  ID:         3049    Distance:                        NaN
  ID:         3050    Distance:                        NaN
+ ID:         3051    Distance:    3.1969137191772461     
  ID:         3052    Distance:    1.7732396125793457     
  ID:         3053    Distance:                        NaN
  ID:         3064    Distance:    1.9107532501220703     
  ID:         3066    Distance:                        NaN
  ID:         3068    Distance:    1.4899144172668457     
+ ID:         3070    Distance:    3.1161165237426758     
  ID:         3086    Distance:                        NaN
+ ID:         3089    Distance:    3.1431903839111328     
  ID:         3090    Distance:                        NaN
  ID:         3092    Distance:    2.8064286708831787     
+ ID:         3112    Distance:    3.1590087413787842     
  ID:         3115    Distance:                        NaN
  ID:         3116    Distance:                        NaN
  ID:         3117    Distance:   0.68207001686096191     
@@ -2480,6 +2834,7 @@
  ID:         3121    Distance:   0.61857700347900391     
  ID:         3122    Distance:                        NaN
  ID:         3123    Distance:                        NaN
+ ID:         3124    Distance:    3.0608696937561035     
  ID:         3126    Distance:    2.8440849781036377     
  ID:         3142    Distance:                        NaN
  ID:         3143    Distance:                        NaN
@@ -2489,12 +2844,21 @@
  ID:         3148    Distance:   0.47880750894546509     
  ID:         3149    Distance:    2.8487646579742432     
  ID:         3150    Distance:                        NaN
+ ID:         3166    Distance:    3.0953943729400635     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           41  are: 
+ ID:         2813    Distance:    3.2451593875885010     
+ ID:         2814    Distance:    3.1913836002349854     
+ ID:         2817    Distance:    3.2389888763427734     
  ID:         2818    Distance:                        NaN
+ ID:         2822    Distance:    3.1665644645690918     
  ID:         2840    Distance:                        NaN
+ ID:         2841    Distance:    3.1018691062927246     
  ID:         2844    Distance:                        NaN
  ID:         2845    Distance:                        NaN
+ ID:         2849    Distance:    3.1462864875793457     
+ ID:         2860    Distance:    3.1280782222747803     
+ ID:         2864    Distance:    3.2231349945068359     
  ID:         2888    Distance:                        NaN
  ID:         2911    Distance:    2.0310039520263672     
  ID:         2912    Distance:                        NaN
@@ -2563,27 +2927,43 @@
  ID:         3066    Distance:                        NaN
  ID:         3111    Distance:    1.9680824279785156     
  ID:         3112    Distance:                        NaN
+ ID:         3113    Distance:    3.2028365135192871     
+ ID:         3114    Distance:    3.1648736000061035     
  ID:         3115    Distance:                        NaN
  ID:         3116    Distance:                        NaN
+ ID:         3117    Distance:    3.2302803993225098     
  ID:         3118    Distance:                        NaN
  ID:         3119    Distance:    2.0563776493072510     
+ ID:         3122    Distance:    3.1843438148498535     
  ID:         3138    Distance:                        NaN
  ID:         3139    Distance:                        NaN
  ID:         3140    Distance:                        NaN
+ ID:         3141    Distance:    3.0973846912384033     
  ID:         3142    Distance:                        NaN
  ID:         3143    Distance:                        NaN
  ID:         3144    Distance:                        NaN
  ID:         3145    Distance:                        NaN
  ID:         3146    Distance:                        NaN
+ ID:         3149    Distance:    3.1401209831237793     
  ID:         3158    Distance:    1.7864742279052734     
+ ID:         3160    Distance:    3.1507856845855713     
  ID:         3162    Distance:                        NaN
+ ID:         3164    Distance:    3.1945126056671143     
  ID:         3166    Distance:    1.8416239023208618     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           42  are: 
+ ID:         2784    Distance:    3.1748657226562500     
+ ID:         2788    Distance:    3.1922602653503418     
+ ID:         2809    Distance:    3.1345846652984619     
  ID:         2813    Distance:                        NaN
  ID:         2814    Distance:                        NaN
+ ID:         2817    Distance:    3.2034482955932617     
  ID:         2818    Distance:                        NaN
+ ID:         2836    Distance:    3.1998486518859863     
  ID:         2840    Distance:                        NaN
+ ID:         2841    Distance:    3.1416087150573730     
+ ID:         2844    Distance:    3.1815435886383057     
+ ID:         2845    Distance:    3.2046849727630615     
  ID:         2878    Distance:    1.9598770141601562     
  ID:         2882    Distance:                        NaN
  ID:         2883    Distance:                        NaN
@@ -2652,21 +3032,29 @@
  ID:         3062    Distance:                        NaN
  ID:         3078    Distance:    1.9641243219375610     
  ID:         3082    Distance:                        NaN
+ ID:         3084    Distance:    3.1617057323455811     
  ID:         3086    Distance:    1.9494242668151855     
+ ID:         3088    Distance:    3.2069053649902344     
  ID:         3108    Distance:                        NaN
+ ID:         3109    Distance:    3.1189587116241455     
  ID:         3111    Distance:                        NaN
  ID:         3112    Distance:                        NaN
  ID:         3113    Distance:                        NaN
  ID:         3114    Distance:                        NaN
  ID:         3115    Distance:                        NaN
  ID:         3116    Distance:                        NaN
+ ID:         3117    Distance:    3.1871187686920166     
  ID:         3118    Distance:                        NaN
  ID:         3135    Distance:    1.8814038038253784     
+ ID:         3136    Distance:    3.1730101108551025     
  ID:         3138    Distance:                        NaN
  ID:         3139    Distance:                        NaN
  ID:         3140    Distance:                        NaN
+ ID:         3141    Distance:    3.1521053314208984     
  ID:         3142    Distance:                        NaN
  ID:         3143    Distance:    1.9582539796829224     
+ ID:         3144    Distance:    3.2084922790527344     
+ ID:         3145    Distance:    3.2732691764831543     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           43  are: 
  ID:         2813    Distance:    2.9220809936523438     
@@ -2678,6 +3066,7 @@
  ID:         2844    Distance:    2.8875038623809814     
  ID:         2845    Distance:   0.63438767194747925     
  ID:         2860    Distance:    2.8278839588165283     
+ ID:         2882    Distance:    3.1167483329772949     
  ID:         2884    Distance:    1.7030612230300903     
  ID:         2888    Distance:    1.7809768915176392     
  ID:         2908    Distance:                        NaN
@@ -2692,6 +3081,7 @@
  ID:         2917    Distance:                        NaN
  ID:         2918    Distance:                        NaN
  ID:         2922    Distance:    1.8890858888626099     
+ ID:         2934    Distance:    3.0591542720794678     
  ID:         2935    Distance:                        NaN
  ID:         2936    Distance:                        NaN
  ID:         2937    Distance:    1.6124179363250732     
@@ -2703,17 +3093,21 @@
  ID:         2943    Distance:                        NaN
  ID:         2944    Distance:                        NaN
  ID:         2945    Distance:                        NaN
+ ID:         2946    Distance:    3.1631388664245605     
  ID:         2949    Distance:    1.7845855951309204     
  ID:         2957    Distance:                        NaN
  ID:         2958    Distance:                        NaN
+ ID:         2959    Distance:    3.0607132911682129     
  ID:         2960    Distance:                        NaN
  ID:         2961    Distance:    1.5680224895477295     
  ID:         2962    Distance:                        NaN
  ID:         2964    Distance:                        NaN
  ID:         2965    Distance:    1.8380566835403442     
+ ID:         2978    Distance:    3.2994489669799805     
  ID:         2982    Distance:                        NaN
  ID:         2984    Distance:    1.6350351572036743     
  ID:         2988    Distance:    1.7564100027084351     
+ ID:         3007    Distance:    3.2477719783782959     
  ID:         3008    Distance:                        NaN
  ID:         3009    Distance:                        NaN
  ID:         3010    Distance:    1.6545436382293701     
@@ -2740,6 +3134,7 @@
  ID:         3045    Distance:                        NaN
  ID:         3046    Distance:                        NaN
  ID:         3049    Distance:    1.8182376623153687     
+ ID:         3055    Distance:    3.1025979518890381     
  ID:         3056    Distance:    2.9319248199462891     
  ID:         3057    Distance:                        NaN
  ID:         3058    Distance:                        NaN
@@ -2749,6 +3144,8 @@
  ID:         3062    Distance:                        NaN
  ID:         3064    Distance:                        NaN
  ID:         3065    Distance:    1.8199740648269653     
+ ID:         3066    Distance:    3.2980804443359375     
+ ID:         3082    Distance:    3.1586892604827881     
  ID:         3108    Distance:                        NaN
  ID:         3111    Distance:                        NaN
  ID:         3112    Distance:                        NaN
@@ -2757,6 +3154,7 @@
  ID:         3115    Distance:                        NaN
  ID:         3116    Distance:                        NaN
  ID:         3118    Distance:   0.60008555650711060     
+ ID:         3134    Distance:    3.0280303955078125     
  ID:         3135    Distance:                        NaN
  ID:         3136    Distance:    2.7904403209686279     
  ID:         3138    Distance:                        NaN
@@ -2767,7 +3165,9 @@
  ID:         3143    Distance:                        NaN
  ID:         3144    Distance:    2.9054508209228516     
  ID:         3145    Distance:   0.89971780776977539     
+ ID:         3146    Distance:    3.1942296028137207     
  ID:         3158    Distance:                        NaN
+ ID:         3159    Distance:    3.0591266155242920     
  ID:         3160    Distance:    2.8569276332855225     
  ID:         3162    Distance:                        NaN
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2784,10 +3184,12 @@
  ID:         2882    Distance:                        NaN
  ID:         2883    Distance:    1.6909551620483398     
  ID:         2884    Distance:                        NaN
+ ID:         2885    Distance:    3.1041009426116943     
  ID:         2886    Distance:                        NaN
  ID:         2887    Distance:    1.8127956390380859     
  ID:         2888    Distance:                        NaN
  ID:         2892    Distance:                        NaN
+ ID:         2908    Distance:    3.0291855335235596     
  ID:         2909    Distance:    1.7131656408309937     
  ID:         2911    Distance:                        NaN
  ID:         2912    Distance:                        NaN
@@ -2798,6 +3200,7 @@
  ID:         2917    Distance:                        NaN
  ID:         2918    Distance:                        NaN
  ID:         2919    Distance:                        NaN
+ ID:         2920    Distance:    3.1060490608215332     
  ID:         2921    Distance:    1.7989670038223267     
  ID:         2922    Distance:                        NaN
  ID:         2936    Distance:    1.6474074125289917     
@@ -2813,7 +3216,10 @@
  ID:         2948    Distance:    1.7719181776046753     
  ID:         2949    Distance:                        NaN
  ID:         2960    Distance:    1.7364675998687744     
+ ID:         2962    Distance:    3.1771774291992188     
  ID:         2964    Distance:    1.7389636039733887     
+ ID:         2978    Distance:    3.3187859058380127     
+ ID:         2981    Distance:    3.2716796398162842     
  ID:         2982    Distance:                        NaN
  ID:         2983    Distance:    1.6815577745437622     
  ID:         2984    Distance:                        NaN
@@ -2836,6 +3242,7 @@
  ID:         3020    Distance:                        NaN
  ID:         3021    Distance:    1.8320323228836060     
  ID:         3022    Distance:                        NaN
+ ID:         3035    Distance:    3.2144200801849365     
  ID:         3036    Distance:    1.6271442174911499     
  ID:         3038    Distance:                        NaN
  ID:         3039    Distance:                        NaN
@@ -2846,14 +3253,19 @@
  ID:         3044    Distance:                        NaN
  ID:         3045    Distance:                        NaN
  ID:         3046    Distance:                        NaN
+ ID:         3047    Distance:    3.2978172302246094     
  ID:         3048    Distance:    1.8057557344436646     
  ID:         3049    Distance:                        NaN
+ ID:         3058    Distance:    3.2432997226715088     
  ID:         3060    Distance:    1.7008153200149536     
  ID:         3062    Distance:                        NaN
  ID:         3064    Distance:    1.8226758241653442     
+ ID:         3066    Distance:    3.2633094787597656     
  ID:         3082    Distance:                        NaN
+ ID:         3085    Distance:    3.1455779075622559     
  ID:         3086    Distance:                        NaN
  ID:         3088    Distance:    2.9046478271484375     
+ ID:         3108    Distance:    3.0604290962219238     
  ID:         3111    Distance:                        NaN
  ID:         3112    Distance:                        NaN
  ID:         3113    Distance:   0.55362826585769653     
@@ -2863,6 +3275,7 @@
  ID:         3117    Distance:   0.69843745231628418     
  ID:         3118    Distance:                        NaN
  ID:         3119    Distance:                        NaN
+ ID:         3120    Distance:    3.1858463287353516     
  ID:         3122    Distance:    2.8553490638732910     
  ID:         3138    Distance:                        NaN
  ID:         3139    Distance:                        NaN
@@ -2872,6 +3285,7 @@
  ID:         3144    Distance:   0.64146554470062256     
  ID:         3145    Distance:    2.8943758010864258     
  ID:         3146    Distance:                        NaN
+ ID:         3162    Distance:    3.1466608047485352     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           45  are: 
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2887,6 +3301,7 @@
  ID:         2840    Distance:    2.8491420745849609     
  ID:         2841    Distance:   0.34709826111793518     
  ID:         2857    Distance:    2.7286353111267090     
+ ID:         2878    Distance:    3.1486387252807617     
  ID:         2880    Distance:    1.6933583021163940     
  ID:         2884    Distance:    1.7627696990966797     
  ID:         2904    Distance:                        NaN
@@ -2912,6 +3327,7 @@
  ID:         2939    Distance:                        NaN
  ID:         2940    Distance:                        NaN
  ID:         2941    Distance:                        NaN
+ ID:         2942    Distance:    3.1834464073181152     
  ID:         2945    Distance:    1.7647941112518311     
  ID:         2955    Distance:                        NaN
  ID:         2956    Distance:    2.7742984294891357     
@@ -2921,7 +3337,9 @@
  ID:         2961    Distance:    1.5256594419479370     
  ID:         2978    Distance:                        NaN
  ID:         2980    Distance:    1.7183204889297485     
+ ID:         2982    Distance:    3.3217735290527344     
  ID:         2984    Distance:    1.7258907556533813     
+ ID:         3003    Distance:    3.2774310111999512     
  ID:         3004    Distance:                        NaN
  ID:         3005    Distance:                        NaN
  ID:         3006    Distance:    1.4420214891433716     
@@ -2953,6 +3371,7 @@
  ID:         3058    Distance:                        NaN
  ID:         3060    Distance:                        NaN
  ID:         3061    Distance:    1.5057301521301270     
+ ID:         3078    Distance:    3.1638820171356201     
  ID:         3104    Distance:                        NaN
  ID:         3107    Distance:                        NaN
  ID:         3108    Distance:                        NaN
@@ -2972,6 +3391,7 @@
  ID:         3139    Distance:                        NaN
  ID:         3140    Distance:    2.9084188938140869     
  ID:         3141    Distance:   0.59150391817092896     
+ ID:         3142    Distance:    3.1365277767181396     
  ID:         3155    Distance:                        NaN
  ID:         3156    Distance:    2.7862555980682373     
  ID:         3157    Distance:    2.7398922443389893     
@@ -2990,10 +3410,12 @@
  ID:         2878    Distance:                        NaN
  ID:         2879    Distance:    1.7005898952484131     
  ID:         2880    Distance:                        NaN
+ ID:         2881    Distance:    3.1251134872436523     
  ID:         2882    Distance:                        NaN
  ID:         2883    Distance:    1.6539947986602783     
  ID:         2884    Distance:                        NaN
  ID:         2888    Distance:                        NaN
+ ID:         2904    Distance:    3.1059956550598145     
  ID:         2905    Distance:    1.7650891542434692     
  ID:         2907    Distance:                        NaN
  ID:         2908    Distance:                        NaN
@@ -3004,6 +3426,7 @@
  ID:         2913    Distance:                        NaN
  ID:         2914    Distance:                        NaN
  ID:         2915    Distance:                        NaN
+ ID:         2916    Distance:    3.0898063182830811     
  ID:         2917    Distance:    1.6589022874832153     
  ID:         2918    Distance:                        NaN
  ID:         2933    Distance:    1.7753702402114868     
@@ -3019,6 +3442,7 @@
  ID:         2944    Distance:    1.6885237693786621     
  ID:         2945    Distance:                        NaN
  ID:         2957    Distance:    1.5201122760772705     
+ ID:         2958    Distance:    3.0683624744415283     
  ID:         2960    Distance:    1.8609212636947632     
  ID:         2978    Distance:                        NaN
  ID:         2979    Distance:    1.6711834669113159     
@@ -3042,6 +3466,7 @@
  ID:         3016    Distance:                        NaN
  ID:         3017    Distance:    1.7317192554473877     
  ID:         3018    Distance:                        NaN
+ ID:         3032    Distance:    3.1478588581085205     
  ID:         3033    Distance:    1.6533881425857544     
  ID:         3034    Distance:                        NaN
  ID:         3035    Distance:                        NaN
@@ -3054,12 +3479,15 @@
  ID:         3042    Distance:                        NaN
  ID:         3044    Distance:    1.7676892280578613     
  ID:         3045    Distance:                        NaN
+ ID:         3055    Distance:    3.1427645683288574     
  ID:         3057    Distance:    1.4563988447189331     
  ID:         3058    Distance:                        NaN
  ID:         3060    Distance:    1.8599524497985840     
  ID:         3078    Distance:                        NaN
+ ID:         3081    Distance:    3.0997817516326904     
  ID:         3082    Distance:                        NaN
  ID:         3084    Distance:    2.8498399257659912     
+ ID:         3104    Distance:    3.0992722511291504     
  ID:         3107    Distance:                        NaN
  ID:         3108    Distance:                        NaN
  ID:         3109    Distance:                        NaN
@@ -3069,6 +3497,7 @@
  ID:         3113    Distance:   0.55410003662109375     
  ID:         3114    Distance:                        NaN
  ID:         3115    Distance:                        NaN
+ ID:         3116    Distance:    3.1322877407073975     
  ID:         3118    Distance:    2.8644394874572754     
  ID:         3134    Distance:                        NaN
  ID:         3135    Distance:                        NaN
@@ -3078,6 +3507,7 @@
  ID:         3140    Distance:   0.58716177940368652     
  ID:         3141    Distance:    2.8205087184906006     
  ID:         3142    Distance:                        NaN
+ ID:         3158    Distance:    3.0655751228332520     
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Nearest neighbors for atom ID:           49  are: 
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
